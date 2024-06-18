@@ -1,2 +1,2 @@
 # MrKnappsClass
-HTML files for Mthe website
+HTML files for Math website
