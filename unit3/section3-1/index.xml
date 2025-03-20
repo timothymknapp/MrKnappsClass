@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>3.1 Trigonometric Derivatives on Calculus Hub</title><link>http://localhost:1313/unit3/section3-1/</link><description>Recent content in 3.1 Trigonometric Derivatives on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/unit3/section3-1/index.xml" rel="self" type="application/rss+xml"/><item><title>3.1 Examples</title><link>http://localhost:1313/unit3/section3-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-1/notes/</guid><description>&lt;h2 id="31-trigonometric-derivatives-examples">3.1 Trigonometric Derivatives: Examples&lt;/h2>
+&lt;h3 id="ex1">Ex1.&lt;/h3>
+&lt;p>Differentiate \( f(x) = \sin(x) \cdot \cos(2x) \)&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:
+We define \( u(x) = \sin(x) \) and \( v(x) = \cos(2x) \).&lt;/p>
+&lt;ol>
+&lt;li>Differentiate \( u(x) = \sin(x) \):&lt;br>
+\( u'(x) = \cos(x) \)&lt;/li>
+&lt;li>Differentiate \( v(x) = \cos(2x) \) using the chain rule:&lt;br>
+\( v'(x) = -\sin(2x) \cdot 2 = -2\sin(2x) \)
+Now apply the product rule:
+\[
+f'(x) = u'(x) \cdot v(x) + u(x) \cdot v'(x)
+\]
+\[
+f'(x) = \cos(x) \cdot \cos(2x) + \sin(x) \cdot (-2\sin(2x))
+\]
+Simplifying:
+\[
+f'(x) = \cos(x)\cos(2x) - 2\sin(x)\sin(2x)
+\]
+Using the double-angle identity \( \sin(2x) = 2\sin(x)\cos(x) \):
+\[
+f'(x) = \cos(x)\cos(2x) - 2\sin(x)(2\sin(x)\cos(x))
+\]
+\[
+f'(x) = \cos(x)\cos(2x) - 4\sin^2(x)\cos(x)
+\]
+Factoring out \( \cos(x) \):
+\[
+f'(x) = \cos(x) \left(\cos(2x) - 4\sin^2(x)\right)
+\]&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3 id="ex2">Ex2.&lt;/h3>
+&lt;p>Differentiate \( f(x) = \tan^3(x) \)&lt;/p></description></item><item><title>3.1 Practice:</title><link>http://localhost:1313/unit3/section3-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-1/practice/</guid><description>&lt;h2 id="31-derivatives-of-trigonometric-functions">3.1 Derivatives of Trigonometric Functions&lt;/h2>
+&lt;h3 id="ex1">Ex1.&lt;/h3>
+&lt;p>Differentiate the following function:&lt;/p>
+\[
+f(x) = \sin(3x)
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Using the chain rule:&lt;/p>
+\[
+\frac{d}{dx}[\sin(u)] = \cos(u) \cdot u'
+\]&lt;p>Let \( u = 3x \). Then \( u' = 3 \).&lt;/p>
+&lt;ol>
+&lt;li>Apply the chain rule:
+\[
+ f'(x) = \cos(3x) \cdot 3
+ \]&lt;/li>
+&lt;li>Final derivative:
+\[
+ f'(x) = 3\cos(3x)
+ \]&lt;/li>
+&lt;/ol>
+&lt;/details>
+&lt;hr>
+&lt;h3 id="ex2">Ex2.&lt;/h3>
+&lt;p>Differentiate the following function:&lt;/p>
+\[
+f(x) = x^2 \cos(x)
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Using the product rule:&lt;/p></description></item></channel></rss>

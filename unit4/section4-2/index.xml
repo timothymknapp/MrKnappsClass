@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>4.2 Increasing and Decreasing on Calculus Hub</title><link>http://localhost:1313/unit4/section4-2/</link><description>Recent content in 4.2 Increasing and Decreasing on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/unit4/section4-2/index.xml" rel="self" type="application/rss+xml"/><item><title>4.2 Examples</title><link>http://localhost:1313/unit4/section4-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-2/notes/</guid><description>&lt;p>Intervals of Increasing and Decreasing Functions
+In this section, we will work through examples that demonstrate how to determine the intervals where a function is increasing or decreasing. Using the &lt;strong>first derivative test&lt;/strong>, we analyze the critical points and the sign of the derivative to classify the behavior of the function over its domain. By the end of this section, students will:&lt;/p>
+&lt;ul>
+&lt;li>Understand how to compute the derivative of a function.&lt;/li>
+&lt;li>Identify critical points and use them to determine intervals of increase and decrease.&lt;/li>
+&lt;li>Apply the first derivative test effectively to classify the behavior of the function.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="example-1-polynomial-function">Example 1: Polynomial Function&lt;/h3>
+&lt;p>Determine the intervals where the function \( f(x) = x^4 - 8x^3 + 18x^2 - 10 \) is increasing or decreasing.&lt;/p></description></item><item><title>4.2 Practice</title><link>http://localhost:1313/unit4/section4-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-2/practice/</guid><description>&lt;p>Ex1.
+Determine the intervals where the function \( f(x) = x^3 - 6x^2 + 9x + 2 \) is increasing or decreasing.&lt;/p>
+&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+&lt;/summary>
+Write the given function: \[ f(x) = x^3 - 6x^2 + 9x + 2 \] 
+Compute the derivative: \[ f'(x) = 3x^2 - 12x + 9 \] 
+Set \( f'(x) = 0 \) to find critical points: \[ 3x^2 - 12x + 9 = 0 \implies x^2 - 4x + 3 = 0 \] 
+Factorize: \[ (x - 3)(x - 1) = 0 \] 
+Critical points: \( x = 1 \) and \( x = 3 \). 
+&lt;p>Use the first derivative test to determine the behavior of \( f'(x) \) around the critical points:&lt;/p></description></item></channel></rss>

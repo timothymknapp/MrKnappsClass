@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MCV4U: Calculus and Vectors on Calculus Hub</title><link>http://localhost:1313/</link><description>Recent content in MCV4U: Calculus and Vectors on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>1.1 Examples</title><link>http://localhost:1313/unit1/section1-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-1/notes/</guid><description>&lt;h2 id="average-rate-of-change-given-an-equation">Average Rate of Change given an Equation.&lt;/h2>
+&lt;h3 id="example-1">Example 1:&lt;/h3>
+&lt;p>Find the average rate of change of the function \(f(x) = x^2 - 2x + 1\) between \(x = 1\) and \(x = 3\).&lt;/p>
+&lt;ol>
+&lt;li>Calculate \(f(1)\):&lt;/li>
+&lt;/ol>
+\[
+ f(1) = 1^2 - 2(1) + 1 = 0
+ \]&lt;ol start="2">
+&lt;li>Calculate \(f(3)\):&lt;/li>
+&lt;/ol>
+\[
+ f(3) = 3^2 - 2(3) + 1 = 4
+ \]&lt;ol start="3">
+&lt;li>Use the average rate of change formula:&lt;/li>
+&lt;/ol>
+\[
+ \text{Average Rate of Change} = \frac{f(3) - f(1)}{3 - 1} = \frac{4 - 0}{3 - 1} = 2
+ \]&lt;p>So, the average rate of change of the function \(f(x) = x^2 - 2x + 1\) between \(x = 1\) and \(x = 3\) is 2.&lt;/p></description></item><item><title>1.2 Examples</title><link>http://localhost:1313/unit1/section1-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-2/notes/</guid><description>&lt;h2 id="instantaneous-rate-of-change-given-an-equation">Instantaneous Rate of Change given an Equation&lt;/h2>
+&lt;h3 id="example-1-quadratic-function">Example 1: Quadratic Function&lt;/h3>
+&lt;p>Let&amp;rsquo;s find the instantaneous rate of change of the function \( f(x) = x^2 - 2x + 1 \) at \( x = 3 \) using the first principles definition.&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Definition of the instantaneous rate of change&lt;/strong>:&lt;/li>
+&lt;/ol>
+\[
+\lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h}
+\]&lt;ol start="2">
+&lt;li>&lt;strong>Plug in the function and point&lt;/strong>:&lt;/li>
+&lt;/ol>
+\[
+\lim_{{h \to 0}} \frac{(3+h)^2 - 2(3+h) + 1 - (3^2 - 2(3) + 1)}{h}
+\]&lt;ol start="3">
+&lt;li>&lt;strong>Simplify the expression&lt;/strong>:&lt;/li>
+&lt;/ol>
+\[
+= \lim_{{h \to 0}} \frac{(9 + 6h + h^2 - 6 - 2h + 1) - (9 - 6 + 1)}{h}
+\]\[
+= \lim_{{h \to 0}} \frac{9 + 6h + h^2 - 6 - 2h + 1 - 9 + 6 - 1}{h}
+\]\[
+= \lim_{{h \to 0}} \frac{6h + h^2 - 2h}{h}
+\]\[
+= \lim_{{h \to 0}} \frac{4h + h^2}{h}
+\]\[
+= \lim_{{h \to 0}} 4 + h
+\]&lt;ol start="4">
+&lt;li>&lt;strong>Take the limit as \( h \) approaches 0&lt;/strong>:&lt;/li>
+&lt;/ol>
+\[
+= 4
+\]&lt;p>So, the instantaneous rate of change of the function \( f(x) = x^2 - 2x + 1 \) at \( x = 3 \) is 4.&lt;/p></description></item><item><title>1.3 Examples</title><link>http://localhost:1313/unit1/section1-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-3/notes/</guid><description>&lt;h2 id="limits-on-graphs">Limits on Graphs&lt;/h2>
+&lt;h3 id="ex-1-limit-of-a-piecewise-function">Ex 1: Limit of a Piecewise Function&lt;/h3>
+&lt;p>a. Determine&lt;/p>
+\[
+\lim_{{x \to -1}} f(x) 
+\]&lt;p>b. Determine&lt;/p>
+\[
+\lim_{{x \to 2}} f(x) 
+\]&lt;div style="margin: 0 auto; width: fit-content;">
+ &lt;iframe src="https://www.desmos.com/calculator/5hlypluxiv?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0>&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;strong>Solution a&lt;/strong>&lt;/p>
+&lt;p>You can form the conclusion that the limit exists by the following logic:&lt;/p>
+&lt;ol>
+&lt;li>The left hand limit is -1: \( \lim_{{x \to -1^-}} f(x) = -1 \)&lt;/li>
+&lt;li>The right hand limit is -1: \( \lim_{{x \to -1^+}} f(x) = -1 \)&lt;/li>
+&lt;li>Since the left hand and the right hand limits are equal we conclude the the limit of the function both exists and its value is -1:
+\[
+ \lim_{{x \to -1}} f(x) = -1 
+\]&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Solution b&lt;/strong>&lt;/p></description></item><item><title>1.4 Examples</title><link>http://localhost:1313/unit1/section1-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-4/notes/</guid><description>&lt;h3 id="example-1-evalute-the-limit-using-the-conjugate">Example 1: Evalute the Limit using the Conjugate&lt;/h3>
+&lt;p>Evaluate the following limit:&lt;/p>
+$$\lim_{{x \to 0}} \frac{5 - \sqrt{x^2 + 25}}{x^2}$$&lt;ol>
+&lt;li>&lt;strong>Multiply by the conjugate of the numerator&lt;/strong>:
+&lt;ul>
+&lt;li>The conjugate of \(5 - \sqrt{x^2 + 25}\) is \(5 + \sqrt{x^2 + 25}\).&lt;/li>
+&lt;li>Multiply the numerator and the denominator by the conjugate:&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+\[
+ \lim_{{x \to 0}} \frac{(5 - \sqrt{x^2 + 25})(5 + \sqrt{x^2 + 25})}{x^2 (5 + \sqrt{x^2 + 25})}
+ \]&lt;ol start="2">
+&lt;li>&lt;strong>Simplify the numerator&lt;/strong>:
+&lt;ul>
+&lt;li>Use the difference of squares formula:&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+\[
+ (5 - \sqrt{x^2 + 25})(5 + \sqrt{x^2 + 25}) = 5^2 - (\sqrt{x^2 + 25})^2 = 25 - (x^2 + 25) = 25 - x^2 - 25 = -x^2
+ \]&lt;ul>
+&lt;li>So the expression becomes:&lt;/li>
+&lt;/ul>
+\[
+ \lim_{{x \to 0}} \frac{-x^2}{x^2 (5 + \sqrt{x^2 + 25})}
+ \]&lt;ol start="3">
+&lt;li>&lt;strong>Cancel out \(x^2\) in the numerator and the denominator&lt;/strong>:&lt;/li>
+&lt;/ol>
+\[
+ \lim_{{x \to 0}} \frac{-x^2}{x^2 (5 + \sqrt{x^2 + 25})} = \lim_{{x \to 0}} \frac{-1}{5 + \sqrt{x^2 + 25}}
+ \]&lt;ol start="4">
+&lt;li>
+&lt;p>&lt;strong>Evaluate the limit&lt;/strong>:&lt;/p></description></item><item><title>1.5 Examples</title><link>http://localhost:1313/unit1/section1-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-5/notes/</guid><description>&lt;h3 id="example-1-jump-discontinuity">Example 1: Jump Discontinuity&lt;/h3>
+&lt;p>Determine if the following function is continuous at \( x = 2 \):&lt;/p>
+\[
+f(x) = \begin{cases} 
+2x + 1 &amp; \text{if } x &lt; 2, \\
+4 &amp; \text{if } x = 2, \\
+x^2 - 3 &amp; \text{if } x > 2.
+\end{cases}
+\]&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Check if \( f(2) \) is defined:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>\( f(2) = 4 \). Thus, the function is defined at \( x = 2 \).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Evaluate the left-hand limit:&lt;/strong>&lt;/p></description></item><item><title>1.6 Examples</title><link>http://localhost:1313/unit1/section1-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-6/notes/</guid><description>&lt;h3 id="example-1-differentiability-at-a-point">Example 1: Differentiability at a Point&lt;/h3>
+&lt;p>Determine whether the function \( f(x) = |x| \) is differentiable at \( x = 0 \).&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Check Continuity at \( x = 0 \):&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>The function \( f(x) = |x| \) is continuous for all \( x \), including \( x = 0 \).&lt;br>
+\[
+ f(0) = |0| = 0, \quad \text{and } \lim_{{x \to 0}} f(x) = 0.
+ \]
+Thus, \( f(x) \) is continuous at \( x = 0 \).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Compute the Left-Hand Derivative:&lt;/strong>&lt;/p></description></item><item><title>1.7 Examples</title><link>http://localhost:1313/unit1/section1-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-7/notes/</guid><description>&lt;h3 id="example-1-find-the-equation-of-the-tangent-line">Example 1: Find the Equation of the Tangent Line&lt;/h3>
+&lt;p>Find the equation of the tangent line to the function \( f(x) = x^3 - 2x + 1 \) at \( x = 2 \).&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Calculate the Derivative:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>\( f'(x) = 3x^2 - 2 \)&lt;/li>
+&lt;li>At \( x = 2 \), \( f'(2) = 3(2)^2 - 2 = 10 \)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Identify the Point:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>The point of tangency is \( (2, f(2)) \).&lt;/li>
+&lt;li>\( f(2) = (2)^3 - 2(2) + 1 = 5 \)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Use the Point-Slope Form:&lt;/strong>&lt;/p></description></item><item><title>2.7 Examples</title><link>http://localhost:1313/unit2/section2-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-7/notes/</guid><description>&lt;h3 id="overview">Overview&lt;/h3>
+&lt;p>In this section, we will work through examples that demonstrate how to find the equation of a tangent line using the point-slope form of a linear equation and the concept of finding x-values where a function has a specific slope. These examples will reinforce your understanding of derivatives and their application in determining tangent lines.&lt;/p>
+&lt;hr>
+&lt;h3 id="example-1-finding-the-equation-of-a-tangent-line">Example 1: Finding the Equation of a Tangent Line&lt;/h3>
+&lt;h4 id="problem">Problem:&lt;/h4>
+&lt;p>Find the equation of the tangent line to the curve \( y = x^3 - 2x + 1 \) at \( x = 2 \).&lt;/p></description></item><item><title>3.1 Examples</title><link>http://localhost:1313/unit3/section3-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-1/notes/</guid><description>&lt;h2 id="31-trigonometric-derivatives-examples">3.1 Trigonometric Derivatives: Examples&lt;/h2>
+&lt;h3 id="ex1">Ex1.&lt;/h3>
+&lt;p>Differentiate \( f(x) = \sin(x) \cdot \cos(2x) \)&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:
+We define \( u(x) = \sin(x) \) and \( v(x) = \cos(2x) \).&lt;/p>
+&lt;ol>
+&lt;li>Differentiate \( u(x) = \sin(x) \):&lt;br>
+\( u'(x) = \cos(x) \)&lt;/li>
+&lt;li>Differentiate \( v(x) = \cos(2x) \) using the chain rule:&lt;br>
+\( v'(x) = -\sin(2x) \cdot 2 = -2\sin(2x) \)
+Now apply the product rule:
+\[
+f'(x) = u'(x) \cdot v(x) + u(x) \cdot v'(x)
+\]
+\[
+f'(x) = \cos(x) \cdot \cos(2x) + \sin(x) \cdot (-2\sin(2x))
+\]
+Simplifying:
+\[
+f'(x) = \cos(x)\cos(2x) - 2\sin(x)\sin(2x)
+\]
+Using the double-angle identity \( \sin(2x) = 2\sin(x)\cos(x) \):
+\[
+f'(x) = \cos(x)\cos(2x) - 2\sin(x)(2\sin(x)\cos(x))
+\]
+\[
+f'(x) = \cos(x)\cos(2x) - 4\sin^2(x)\cos(x)
+\]
+Factoring out \( \cos(x) \):
+\[
+f'(x) = \cos(x) \left(\cos(2x) - 4\sin^2(x)\right)
+\]&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3 id="ex2">Ex2.&lt;/h3>
+&lt;p>Differentiate \( f(x) = \tan^3(x) \)&lt;/p></description></item><item><title>3.4 Examples</title><link>http://localhost:1313/unit3/section3-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-4/notes/</guid><description>&lt;h3 id="34-logarithmic-derivatives-examples">3.4 Logarithmic Derivatives: Examples&lt;/h3>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Differentiate \( f(x) = \ln(5x) \)&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:&lt;br>
+The derivative of \( \ln(u) \) with respect to \( x \) is \( \frac{1}{u} \cdot u' \), where \( u = 5x \).&lt;/p>
+&lt;ol>
+&lt;li>Differentiate \( u(x) = 5x \):&lt;br>
+\( u'(x) = 5 \)&lt;/li>
+&lt;li>Apply the chain rule:&lt;br>
+\[
+ f'(x) = \frac{1}{5x} \cdot 5
+ \]&lt;/li>
+&lt;li>Simplify:&lt;br>
+\[
+ f'(x) = \frac{5}{5x} = \frac{1}{x}
+ \]&lt;/li>
+&lt;/ol>
+\[
+f'(x) = \frac{1}{x}
+\]&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+&lt;p>Differentiate \( f(x) = \ln(x^2 + 1) \)&lt;/p></description></item><item><title>3.5 Examples</title><link>http://localhost:1313/unit3/section3-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-5/notes/</guid><description>&lt;h3 id="examples-with-transcendental-functions">Examples with Transcendental Functions&lt;/h3>
+&lt;p>In this section, we will work through examples that demonstrate how to find the equation of a tangent line using transcendental functions. These examples will reinforce your understanding of derivatives and their application in determining tangent lines for exponential, logarithmic, and trigonometric functions.&lt;/p>
+&lt;hr>
+&lt;h3 id="example-1-tangent-line-to-an-exponential-function">Example 1: Tangent Line to an Exponential Function&lt;/h3>
+&lt;h4 id="problem">Problem:&lt;/h4>
+&lt;p>Find the equation of the tangent line to the curve \( y = e^{2x} \) at \( x = 0 \).&lt;/p></description></item><item><title>3.6 Examples</title><link>http://localhost:1313/unit3/section3-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-6/notes/</guid><description>&lt;h3 id="mixing-derivative-rules-with-transcendentals-including-some-double-chain-rules">Mixing Derivative Rules with Transcendentals including some Double Chain Rules&lt;/h3>
+&lt;p>In this section, we will work through examples that require combining multiple derivative rules, such as the Power Rule, Product Rule, Quotient Rule, and Chain Rule. These examples will also include transcendental functions and cases where double chain rules are applied (a function within a function within a function). This will deepen your understanding of how to approach complex differentiation problems.&lt;/p></description></item><item><title>3.7 Examples</title><link>http://localhost:1313/unit3/section3-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-7/notes/</guid><description>&lt;h3 id="using-graphical-information-to-compute-derivatives">Using Graphical Information to Compute Derivatives&lt;/h3>
+&lt;p>In this section, we will work through examples that demonstrate how to compute derivatives using graphical information. You will use the given graph of two functions \( f(x) \) (red curve) and \( g(x) \) (blue curve) to estimate values and slopes, then apply derivative rules to solve problems.&lt;/p>
+&lt;hr>
+&lt;h3 id="example-1-derivative-of-a-product-function-from-graphs">Example 1: Derivative of a Product Function from Graphs&lt;/h3>
+&lt;p>You are given the graphs of two functions \( f(x) \) (red curve) and \( g(x) \) (blue curve), as shown below:&lt;/p></description></item><item><title>4.1 Examples</title><link>http://localhost:1313/unit4/section4-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-1/notes/</guid><description>&lt;p>Finding Maximum and Minimum Values Using the First Derivative Test
+In this section, we will work through examples that demonstrate how to find the local maximum and minimum values of functions using the &lt;strong>first derivative test&lt;/strong>. These examples will include polynomial, rational, trigonometric, and composite functions. By the end of this section, students will:&lt;/p>
+&lt;ul>
+&lt;li>Understand how to use the first derivative test to determine critical points.&lt;/li>
+&lt;li>Classify critical points as local maxima, local minima, or neither.&lt;/li>
+&lt;li>Solve problems involving various types of functions.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="example-1-polynomial-function">Example 1: Polynomial Function&lt;/h3>
+&lt;p>Find the local maximum and minimum values of the function \( f(x) = x^3 - 3x^2 - 9x + 5 \).&lt;/p></description></item><item><title>4.2 Examples</title><link>http://localhost:1313/unit4/section4-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-2/notes/</guid><description>&lt;p>Intervals of Increasing and Decreasing Functions
+In this section, we will work through examples that demonstrate how to determine the intervals where a function is increasing or decreasing. Using the &lt;strong>first derivative test&lt;/strong>, we analyze the critical points and the sign of the derivative to classify the behavior of the function over its domain. By the end of this section, students will:&lt;/p>
+&lt;ul>
+&lt;li>Understand how to compute the derivative of a function.&lt;/li>
+&lt;li>Identify critical points and use them to determine intervals of increase and decrease.&lt;/li>
+&lt;li>Apply the first derivative test effectively to classify the behavior of the function.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="example-1-polynomial-function">Example 1: Polynomial Function&lt;/h3>
+&lt;p>Determine the intervals where the function \( f(x) = x^4 - 8x^3 + 18x^2 - 10 \) is increasing or decreasing.&lt;/p></description></item><item><title>4.3 Examples</title><link>http://localhost:1313/unit4/section4-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-3/notes/</guid><description>&lt;h3 id="example-1-polynomial-function">Example 1: Polynomial Function&lt;/h3>
+&lt;p>Determine the points of inflection for the function \( f(x) = x^3 + x - 3 \).&lt;/p>
+&lt;h4 id="solution">Solution:&lt;/h4>
+&lt;p>Write the given function:&lt;/p>
+\[ f(x) = x^3 + x - 3 \]&lt;p>Compute the first derivative:&lt;/p>
+\[ f'(x) = 3x^2 + 1 \]&lt;p>Compute the second derivative:&lt;/p>
+\[ f''(x) = 6x \]&lt;p>Set \( f''(x) = 0 \) to find potential points of inflection:&lt;/p>
+\[ 6x = 0 \implies x = 0 \]&lt;p>Check the concavity around \( x = 0 \):&lt;/p></description></item><item><title>4.4 Examples</title><link>http://localhost:1313/unit4/section4-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-4/notes/</guid><description>&lt;p>Intervals of Concavity
+In this section, we will work through examples that demonstrate how to determine the intervals where a function is concave up or concave down using the second derivative test. These examples will include polynomial, rational, trigonometric, and exponential functions. By the end of this section, students will:&lt;/p>
+&lt;ul>
+&lt;li>Understand how to compute the second derivative of a function.&lt;/li>
+&lt;li>Use the second derivative test to classify intervals of concavity.&lt;/li>
+&lt;li>Solve problems involving various types of functions.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="example-1-polynomial-function">Example 1: Polynomial Function&lt;/h3>
+&lt;p>Determine the intervals where the function \( f(x) = x^3 - 6x^2 + 9x + 2 \) is concave up or concave down.&lt;/p></description></item><item><title>4.5 Notes</title><link>http://localhost:1313/unit4/section4-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-5/notes/</guid><description>&lt;h2 id="ex-1">Ex 1:&lt;/h2>
+&lt;p>Analyzing the Graph of \( y = e^{-x-3} \) Using First and Second Derivative Tests&lt;/p>
+&lt;h2 id="step-1-find-the-first-derivative">Step 1: Find the First Derivative&lt;/h2>
+&lt;p>To find the first derivative \( y' \) of \( y = e^{-x-3} \), we differentiate directly with respect to \( x \):&lt;/p>
+\[
+y = e^{-x-3}
+\]&lt;p>The derivative of \( e^{u} \) where \( u = -x - 3 \) is \( e^u \cdot \frac{du}{dx} \). Here, \( \frac{du}{dx} = -1 \), so:&lt;/p></description></item><item><title>4.6 Notes</title><link>http://localhost:1313/unit4/section4-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-6/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>4.7 Examples</title><link>http://localhost:1313/unit4/section4-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-7/notes/</guid><description>&lt;hr>
+&lt;h3 id="example-1-reconstructing-a-cubic-polynomial">Example 1: Reconstructing a Cubic Polynomial&lt;/h3>
+&lt;p>Reconstruct the cubic polynomial $ f(x) = ax^3 + bx^2 + cx + d $ given the following conditions:&lt;/p>
+&lt;ul>
+&lt;li>$ f(1) = 4 $&lt;/li>
+&lt;li>$ f&amp;rsquo;(1) = 0 $&lt;/li>
+&lt;li>$ f&amp;rsquo;&amp;rsquo;(1) = 6 $&lt;/li>
+&lt;li>$ f(0) = 2 $&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Write the general form of the cubic polynomial:
+\[
+ f(x) = ax^3 + bx^2 + cx + d
+ \]&lt;/li>
+&lt;li>Compute the first and second derivatives:
+\[
+ f'(x) = 3ax^2 + 2bx + c, \quad f''(x) = 6ax + 2b
+ \]&lt;/li>
+&lt;li>Translate the conditions into equations:
+&lt;ul>
+&lt;li>From $ f(1) = 4 $:
+\[
+ a(1)^3 + b(1)^2 + c(1) + d = 4 \implies a + b + c + d = 4
+ \]&lt;/li>
+&lt;li>From $ f&amp;rsquo;(1) = 0 $:
+\[
+ 3a(1)^2 + 2b(1) + c = 0 \implies 3a + 2b + c = 0
+ \]&lt;/li>
+&lt;li>From $ f&amp;rsquo;&amp;rsquo;(1) = 6 $:
+\[
+ 6a(1) + 2b = 6 \implies 6a + 2b = 6 \implies 3a + b = 3
+ \]&lt;/li>
+&lt;li>From $ f(0) = 2 $:
+\[
+ a(0)^3 + b(0)^2 + c(0) + d = 2 \implies d = 2
+ \]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Solve the system of equations:
+&lt;ul>
+&lt;li>Substitute $ d = 2 $ into the first equation:
+\[
+ a + b + c + 2 = 4 \implies a + b + c = 2
+ \]&lt;/li>
+&lt;li>Use $ 3a + b = 3 $ to express $ b $ in terms of $ a $:
+\[
+ b = 3 - 3a
+ \]&lt;/li>
+&lt;li>Substitute $ b = 3 - 3a $ into $ a + b + c = 2 $:
+\[
+ a + (3 - 3a) + c = 2 \implies -2a + 3 + c = 2 \implies c = 2a - 1
+ \]&lt;/li>
+&lt;li>Substitute $ b = 3 - 3a $ and $ c = 2a - 1 $ into $ 3a + 2b + c = 0 $:
+\[
+ 3a + 2(3 - 3a) + (2a - 1) = 0 \implies 3a + 6 - 6a + 2a - 1 = 0 \implies -a + 5 = 0 \implies a = 5
+ \]&lt;/li>
+&lt;li>Solve for $ b $ and $ c $:
+\[
+ b = 3 - 3(5) = -12, \quad c = 2(5) - 1 = 9
+ \]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Write the final function:
+\[
+ f(x) = 5x^3 - 12x^2 + 9x + 2
+ \]&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3 id="example-2-reconstructing-an-exponential-function">Example 2: Reconstructing an Exponential Function&lt;/h3>
+&lt;p>Reconstruct the exponential function $ f(x) = Ae^{kx} + C $ given the following conditions:&lt;/p></description></item><item><title>5.1 Notes</title><link>http://localhost:1313/unit5/section5-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-1/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.2 Notes</title><link>http://localhost:1313/unit5/section5-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-2/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.3 Notes</title><link>http://localhost:1313/unit5/section5-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-3/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.4 Notes</title><link>http://localhost:1313/unit5/section5-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-4/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.5 Notes</title><link>http://localhost:1313/unit5/section5-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-5/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.6 Notes</title><link>http://localhost:1313/unit5/section5-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-6/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.7 Notes</title><link>http://localhost:1313/unit5/section5-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-7/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.1 Notes</title><link>http://localhost:1313/unit6/section6-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-1/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.2 Notes</title><link>http://localhost:1313/unit6/section6-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-2/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.3 Notes</title><link>http://localhost:1313/unit6/section6-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-3/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.4 Notes</title><link>http://localhost:1313/unit6/section6-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-4/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.5 Notes</title><link>http://localhost:1313/unit6/section6-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-5/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.6 Notes</title><link>http://localhost:1313/unit6/section6-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-6/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.7 Notes</title><link>http://localhost:1313/unit6/section6-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-7/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.1 Notes</title><link>http://localhost:1313/unit7/section7-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-1/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.2 Notes</title><link>http://localhost:1313/unit7/section7-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-2/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.3 Notes</title><link>http://localhost:1313/unit7/section7-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-3/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.4 Notes</title><link>http://localhost:1313/unit7/section7-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-4/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.5 Notes</title><link>http://localhost:1313/unit7/section7-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-5/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.6 Notes</title><link>http://localhost:1313/unit7/section7-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-6/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.7 Notes</title><link>http://localhost:1313/unit7/section7-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-7/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.1 Notes</title><link>http://localhost:1313/unit8/section8-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-1/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.2 Notes</title><link>http://localhost:1313/unit8/section8-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-2/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.3 Notes</title><link>http://localhost:1313/unit8/section8-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-3/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.4 Notes</title><link>http://localhost:1313/unit8/section8-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-4/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.5 Notes</title><link>http://localhost:1313/unit8/section8-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-5/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.6 Notes</title><link>http://localhost:1313/unit8/section8-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-6/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.7 Notes</title><link>http://localhost:1313/unit8/section8-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-7/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>1.1 Practice</title><link>http://localhost:1313/unit1/section1-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-1/practice/</guid><description>&lt;h3 id="mcv4u-11-average-rates-of-change">MCV4U 1.1 Average Rates of Change&lt;/h3>
+&lt;h4 id="ex-1">Ex 1&lt;/h4>
+&lt;p>Consider the quadratic function \( f(x) = x^2 + 2x + 1 \).&lt;/p>
+&lt;p>&lt;strong>Question:&lt;/strong>
+Find the average rate of change of \( f(x) \) on the interval \([1, 3]\). What is the slope of the secant line, and what is the equation of the secant line in point-slope form?&lt;/p>
+&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+\[ f(1) = 1^2 + 2(1) + 1 = 4 \]\[ f(3) = 3^2 + 2(3) + 1 = 16 \]&lt;/li>
+&lt;li>
+&lt;p>Find the slope of the secant line:
+\( m = \frac{f(3) - f(1)}{3 - 1} = \frac{16 - 4}{2} = 6 \)&lt;/p></description></item><item><title>1.2 Practice</title><link>http://localhost:1313/unit1/section1-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-2/practice/</guid><description>&lt;h3 id="mcv4u-12-instantaneous-rates-of-change">MCV4U 1.2 Instantaneous Rates of Change&lt;/h3>
+&lt;h4 id="ex-1">Ex 1&lt;/h4>
+&lt;p>Consider the quadratic function \( f(x) = x^2 + 2x + 1 \).&lt;/p>
+&lt;p>&lt;strong>Question:&lt;/strong>
+Find the instantaneous rate of change of \( f(x) \) at \( x = 2 \).&lt;/p>
+&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>We can always use the First Princles Definition to find an IROC&lt;/li>
+&lt;/ol>
+\[
+\text{Instantaneous Rate of Change} = \lim_{{h \to 0}} \frac{f(a + h) - f(a)}{h}
+\]&lt;ol start="2">
+&lt;li>Calculate \( f(2 + h) \) and \( f(2) \):&lt;/li>
+&lt;/ol>
+\[
+ f(2 + h) = (2 + h)^2 + 2(2 + h) + 1 = 4 + 4h + h^2 + 4 + 2h + 1 = h^2 + 6h + 9
+ \]\[
+ f(2) = 2^2 + 2(2) + 1 = 4 + 4 + 1 = 9
+ \]&lt;ol start="3">
+&lt;li>Substitute into the formula and simplify:&lt;/li>
+&lt;/ol>
+\[
+ \lim_{{h \to 0}} \frac{(h^2 + 6h + 9) - 9}{h} = \lim_{{h \to 0}} \frac{h^2 + 6h}{h} = \lim_{{h \to 0}} (h + 6)
+ \]&lt;ol start="4">
+&lt;li>&lt;strong>Plug in zero for \( h \)&lt;/strong>:&lt;/li>
+&lt;/ol>
+\[
+ \lim_{{h \to 0}} (h + 6) = 6
+ \]&lt;p>If we directly plug in zero for \( h \), we get an indeterminate form \( \frac{0}{0} \). To find the true value, we generally need to apply algebraic techniques to these limits.&lt;/p></description></item><item><title>1.3 Practice</title><link>http://localhost:1313/unit1/section1-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-3/practice/</guid><description>&lt;h3 id="13-limits-on-graphs">1.3 Limits on Graphs&lt;/h3>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Determine the limit as x Apraoches -3.&lt;/p>
+&lt;div style="margin: 0 auto; width: fit-content;">
+ &lt;iframe src="https://www.desmos.com/calculator/rkp7vf13jz?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0>&lt;/iframe>
+&lt;/div>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>You can form the conclusion that the limit exists by the following logic:&lt;/p>
+&lt;ol>
+&lt;li>The left hand limit is -4: \( \lim_{{x \to -3^-}} f(x) = -4 \)&lt;/li>
+&lt;li>The right hand limit is -4: \( \lim_{{x \to -3^+}} f(x) =-4 \)&lt;/li>
+&lt;li>Since the left hand and the right hand limits are equal we conclude the the limit of the function both exists and its value is -4:
+\[
+ \lim_{{x \to -3}} f(x) = -4 
+\]&lt;/li>
+&lt;/ol>
+&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+&lt;p>Determine: \( \lim_{{x \to 0}} f(x) \)&lt;/p></description></item><item><title>1.4 Practice</title><link>http://localhost:1313/unit1/section1-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-4/practice/</guid><description>&lt;h3 id="14-algebraic-limits">1.4 Algebraic Limits&lt;/h3>
+&lt;h4 id="ex1">Ex1&lt;/h4>
+&lt;p>Evaluate the limit:&lt;/p>
+\[ \lim_{{x \to 3}} (2x + 5) \]&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Since the expression \(2x + 5\) is a polynomial, we can directly substitute \(x = 3\) into the expression:&lt;/p>
+\[
+\lim_{{x \to 3}} (2x + 5) = 2(3) + 5 = 6 + 5 = 11
+\]&lt;p>So, the limit is:&lt;/p>
+\[
+\boxed{11}
+\]&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2&lt;/h4>
+&lt;p>Evaluate the limit:&lt;/p>
+\[ \lim_{{x \to 2}} \frac{x^2 + 1}{x - 1} \]&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Since the expression \(\frac{x^2 + 1}{x - 1}\) is a rational function and the denominator does not approach zero as \(x\) approaches 2, we can directly substitute \(x = 2\) into the expression:&lt;/p></description></item><item><title>1.5 Practice</title><link>http://localhost:1313/unit1/section1-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-5/practice/</guid><description>&lt;h3 id="15-continuity">1.5 Continuity&lt;/h3>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Determine whether the function \( f(x) = \frac{x^2 - 4}{x - 2} \) is continuous at \( x = 2 \).&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Check if \( f(2) \) is defined:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Substituting \( x = 2 \):
+\[
+ f(2) = \frac{2^2 - 4}{2 - 2} = \frac{0}{0},
+ \]
+which is undefined. Thus, \( f(x) \) is not defined at \( x = 2 \).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Simplify the function:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Factor the numerator:
+\[
+ f(x) = \frac{x^2 - 4}{x - 2} = \frac{(x - 2)(x + 2)}{x - 2}.
+ \]&lt;/li>
+&lt;li>Cancel \( x - 2 \):
+\[
+ f(x) = x + 2, \quad \text{for } x \neq 2.
+ \]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Evaluate the limit as \( x \to 2 \):&lt;/strong>&lt;/p></description></item><item><title>1.6 Practice</title><link>http://localhost:1313/unit1/section1-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-6/practice/</guid><description>&lt;h3 id="16-differentiability">1.6 Differentiability&lt;/h3>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Determine whether the function \( f(x) = |x - 1| \) is differentiable at \( x = 1 \).&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Check Continuity:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>The function \( f(x) = |x - 1| \) is continuous for all \( x \), including \( x = 1 \).&lt;br>
+\[
+ f(1) = |1 - 1| = 0, \quad \text{and } \lim_{{x \to 1}} f(x) = 0.
+ \]
+Thus, \( f(x) \) is continuous at \( x = 1 \).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Compute the Left-Hand Derivative:&lt;/strong>&lt;/p></description></item><item><title>1.7 Practice</title><link>http://localhost:1313/unit1/section1-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-7/practice/</guid><description>&lt;h3 id="17-tangent-lines">1.7 Tangent Lines&lt;/h3>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Find the equation of the tangent line to the function \( f(x) = x^2 + 3x - 4 \) at \( x = 2 \).&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Calculate the Derivative:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>\( f'(x) = 2x + 3 \)&lt;/li>
+&lt;li>At \( x = 2 \), \( f'(2) = 2(2) + 3 = 7 \)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Identify the Point:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>The point of tangency is \( (2, f(2)) \).&lt;/li>
+&lt;li>\( f(2) = (2)^2 + 3(2) - 4 = 6 \)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Use the Point-Slope Form:&lt;/strong>&lt;/p></description></item><item><title>2.1 Examples</title><link>http://localhost:1313/unit2/section2-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-1/notes/</guid><description>&lt;h2 id="section-21-examples">Section 2.1: Examples&lt;/h2>
+\[
+\frac{d}{dx}[x^n] = n \cdot x^{n-1},
+\]&lt;p>
+where \( n \) can be any real number.&lt;/p>
+&lt;hr>
+&lt;h3 id="example-1-basic-polynomial">Example 1: Basic Polynomial&lt;/h3>
+&lt;p>Differentiate \( f(x) = x^3 \).&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+\[
+f'(x) = 3 \cdot x^{3-1} = 3x^2.
+\]&lt;hr>
+&lt;h3 id="example-2-fractional-exponent">Example 2: Fractional Exponent&lt;/h3>
+&lt;p>Differentiate \( g(x) = x^{1/2} \).&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+\[
+g'(x) = \frac{1}{2} \cdot x^{\frac{1}{2} - 1} = \frac{1}{2} \cdot x^{-\frac{1}{2}} = \frac{1}{2\sqrt{x}}.
+\]&lt;hr>
+&lt;h3 id="example-3-negative-exponent">Example 3: Negative Exponent&lt;/h3>
+&lt;p>Differentiate \( h(x) = x^{-2} \).&lt;/p></description></item><item><title>2.1 Practice</title><link>http://localhost:1313/unit2/section2-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-1/practice/</guid><description>&lt;h3 id="21-power-rule">2.1 Power Rule&lt;/h3>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Differentiate \( f(x) = x^5 \).&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+\[
+f'(x) = 5 \cdot x^{5-1} = 5x^4.
+\]&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+&lt;p>Differentiate \( g(x) = x^{1/3} \).&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+\[
+g'(x) = \frac{1}{3} \cdot x^{\frac{1}{3}-1} = \frac{1}{3} \cdot x^{-\frac{2}{3}} = \frac{1}{3\sqrt[3]{x^2}}.
+\]&lt;/details>
+&lt;hr>
+&lt;h4 id="ex3">Ex3.&lt;/h4>
+&lt;p>Differentiate \( h(x) = x^{-4} \).&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+\[
+h'(x) = -4 \cdot x^{-4-1} = -4x^{-5}.
+\]&lt;/details>
+&lt;hr>
+&lt;h4 id="ex4">Ex4.&lt;/h4>
+&lt;p>Differentiate \( f(x) = \frac{1}{x^2} \).&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+\[
+f(x) = x^{-2}.
+\]\[
+f'(x) = -2 \cdot x^{-2-1} = -2x^{-3} = \frac{-2}{x^3}.
+\]&lt;/details>
+&lt;hr>
+&lt;h4 id="ex5">Ex5.&lt;/h4>
+&lt;p>Differentiate \( g(x) = x^{7/2} \).&lt;/p></description></item><item><title>2.2 Examples</title><link>http://localhost:1313/unit2/section2-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-2/notes/</guid><description>&lt;h3 id="22-sum-and-difference-rules">2.2 Sum and Difference Rules&lt;/h3>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Differentiate the function \( f(x) = x^4 + 2x^3 - 5x + 7 \).&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;p>Using the Sum Rule, differentiate each term:&lt;/p>
+\[
+f'(x) = \frac{d}{dx}[x^4] + \frac{d}{dx}[2x^3] - \frac{d}{dx}[5x] + \frac{d}{dx}[7]
+\]\[
+f'(x) = 4x^3 + 6x^2 - 5
+\]&lt;p>Thus, the derivative of \( f(x) = x^4 + 2x^3 - 5x + 7 \) is:&lt;/p>
+\[
+f'(x) = 4x^3 + 6x^2 - 5
+\]&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+&lt;p>Differentiate the function \( f(x) = 3x^5 - 2x^4 + x^3 - 6 \).&lt;/p></description></item><item><title>2.2 Practice</title><link>http://localhost:1313/unit2/section2-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-2/practice/</guid><description>&lt;h3 id="22-sum-and-difference-rules">2.2 Sum and Difference Rules&lt;/h3>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Differentiate the function \( f(x) = x^3 + 5x^2 - 7x + 3 \).&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Using the Sum Rule, differentiate each term individually:&lt;/p>
+\[
+f'(x) = \frac{d}{dx}[x^3] + \frac{d}{dx}[5x^2] - \frac{d}{dx}[7x] + \frac{d}{dx}[3]
+\]\[
+f'(x) = 3x^2 + 10x - 7
+\]&lt;p>Thus, the derivative of \( f(x) = x^3 + 5x^2 - 7x + 3 \) is:&lt;/p>
+\[
+f'(x) = 3x^2 + 10x - 7
+\]&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+&lt;p>Differentiate the function \( f(x) = 4x^2 - 9x + 6 \).&lt;/p></description></item><item><title>2.3 Examples</title><link>http://localhost:1313/unit2/section2-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-3/notes/</guid><description>&lt;h2 id="23-product-rule-examples">2.3 Product Rule: Examples&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Differentiate \( f(x) = x^3 \cdot (4x - 2) \)&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:&lt;/p>
+&lt;p>We define \( u(x) = x^3 \) and \( v(x) = 4x - 2 \).&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Differentiate \( u(x) = x^3 \):&lt;br>
+\( u'(x) = 3x^2 \)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Differentiate \( v(x) = 4x - 2 \):&lt;br>
+\( v'(x) = 4 \)&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Now apply the product rule:&lt;/p>
+\[
+f'(x) = u'(x) \cdot v(x) + u(x) \cdot v'(x)
+\]\[
+f'(x) = (3x^2) \cdot (4x - 2) + (x^3) \cdot 4
+\]&lt;p>Simplifying:&lt;/p></description></item><item><title>2.3 Practice</title><link>http://localhost:1313/unit2/section2-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-3/practice/</guid><description>&lt;h2 id="23-product-rule-practice">2.3 Product Rule: Practice&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Differentiate \( f(x) = (x^2 + 3x) \cdot (x^3 - 5) \)&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>We define \( u(x) = x^2 + 3x \) and \( v(x) = x^3 - 5 \).&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Differentiate \( u(x) = x^2 + 3x \):&lt;br>
+\( u'(x) = 2x + 3 \)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Differentiate \( v(x) = x^3 - 5 \):&lt;br>
+\( v'(x) = 3x^2 \)&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Now apply the product rule:&lt;/p>
+\[
+f'(x) = u'(x) \cdot v(x) + u(x) \cdot v'(x)
+\]\[
+f'(x) = (2x + 3) \cdot (x^3 - 5) + (x^2 + 3x) \cdot (3x^2)
+\]&lt;p>Simplifying:&lt;/p></description></item><item><title>2.4 Examples:</title><link>http://localhost:1313/unit2/section2-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-4/notes/</guid><description>&lt;h3 id="example-1-simple-rational-function">Example 1: Simple Rational Function&lt;/h3>
+&lt;p>Differentiate the following function using the quotient rule:&lt;/p>
+\[
+f(x) = \frac{x^2 + 2x}{x + 1}
+\]&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Let \( u(x) = x^2 + 2x \) and \( v(x) = x + 1 \).&lt;/li>
+&lt;li>The derivatives are:
+&lt;ul>
+&lt;li>\( u'(x) = 2x + 2 \)&lt;/li>
+&lt;li>\( v'(x) = 1 \)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Applying the quotient rule:&lt;/p>
+\[
+f'(x) = \frac{(x + 1)(2x + 2) - (x^2 + 2x)(1)}{(x + 1)^2}
+\]&lt;p>Now, simplify the numerator:&lt;/p></description></item><item><title>2.4 Practice:</title><link>http://localhost:1313/unit2/section2-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-4/practice/</guid><description>&lt;h3 id="24-quotient-rule">2.4 Quotient Rule&lt;/h3>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Differentiate the following function using the quotient rule:&lt;/p>
+\[
+f(x) = \frac{x^3 + 5x}{x^2 - 1}
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+\[
+\frac{d}{dx} \left( \frac{u}{v} \right) = \frac{v \cdot u' - u \cdot v'}{v^2}
+\]&lt;p>
+Let \( u = x^3 + 5x \) and \( v = x^2 - 1 \).&lt;/p>
+&lt;ol>
+&lt;li>
+\[
+ u' = 3x^2 + 5, \quad v' = 2x
+ \]&lt;/li>
+&lt;li>
+\[
+ f'(x) = \frac{(x^2 - 1)(3x^2 + 5) - (x^3 + 5x)(2x)}{(x^2 - 1)^2}
+ \]&lt;/li>
+&lt;li>
+\[
+ (x^2 - 1)(3x^2 + 5) = 3x^4 + 5x^2 - 3x^2 - 5 = 3x^4 + 2x^2 - 5
+ \]\[
+ (x^3 + 5x)(2x) = 2x^4 + 10x^2
+ \]\[
+ (3x^4 + 2x^2 - 5) - (2x^4 + 10x^2) = x^4 - 8x^2 - 5
+ \]&lt;/li>
+&lt;li>
+\[
+ f'(x) = \frac{x^4 - 8x^2 - 5}{(x^2 - 1)^2}
+ \]&lt;/li>
+&lt;/ol>
+&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+&lt;p>Differentiate the following function:&lt;/p></description></item><item><title>2.5 Examples</title><link>http://localhost:1313/unit2/section2-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-5/notes/</guid><description>&lt;h2 id="chain-rule">Chain Rule:&lt;/h2>
+&lt;h3 id="example-1-polynomial-function-with-a-power">Example 1: Polynomial Function with a Power&lt;/h3>
+&lt;p>Differentiate the following function using the Chain Rule:&lt;/p>
+\[
+y = (4x^2 + 5x + 3)^6
+\]&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Identify the outer and inner functions:&lt;/p>
+&lt;ul>
+&lt;li>Outer function: \( u(v) = v^6 \), where \( v = 4x^2 + 5x + 3 \).&lt;/li>
+&lt;li>Inner function: \( v(x) = 4x^2 + 5x + 3 \).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+\[
+ \frac{du}{dv} = 6v^5
+ \]&lt;/li>
+&lt;li>
+\[
+ \frac{dv}{dx} = 8x + 5
+ \]&lt;/li>
+&lt;li>
+\[
+ \frac{dy}{dx} = 6(4x^2 + 5x + 3)^5 \cdot (8x + 5)
+ \]&lt;/li>
+&lt;/ol>
+&lt;p>Thus, the derivative is:&lt;/p></description></item><item><title>2.5 Practice:</title><link>http://localhost:1313/unit2/section2-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-5/practice/</guid><description>&lt;h2 id="chain-rule">Chain Rule:&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Differentiate the following function using the Chain Rule:&lt;/p>
+\[
+y = (3x^2 + 4x + 5)^7
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Identify the outer and inner functions:&lt;/p>
+&lt;ul>
+&lt;li>Outer function: \( u(v) = v^7 \), where \( v = 3x^2 + 4x + 5 \).&lt;/li>
+&lt;li>Inner function: \( v(x) = 3x^2 + 4x + 5 \).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+\[
+ \frac{du}{dv} = 7v^6
+ \]&lt;/li>
+&lt;li>
+\[
+ \frac{dv}{dx} = 6x + 4
+ \]&lt;/li>
+&lt;li>
+\[
+ \frac{dy}{dx} = 7(3x^2 + 4x + 5)^6 \cdot (6x + 4)
+ \]&lt;/li>
+&lt;/ol>
+&lt;p>Thus, the derivative is:&lt;/p></description></item><item><title>2.6 Examples</title><link>http://localhost:1313/unit2/section2-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-6/notes/</guid><description>&lt;h2 id="mixing-derivative-rules">Mixing Derivative Rules:&lt;/h2>
+&lt;p>In this section, we will work through examples that require combining multiple derivative rules, such as the Power Rule, Product Rule, Quotient Rule, and Chain Rule. These examples will help you develop a deeper understanding of how to approach complex differentiation problems.&lt;/p>
+&lt;hr>
+&lt;h3 id="example-1-product-of-two-functions-with-a-composite-function">Example 1: Product of Two Functions with a Composite Function&lt;/h3>
+\[
+y = x^3(2x^2 + 3)^4
+\]&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Identify the structure of the function:
+&lt;ul>
+&lt;li>This is a product of two functions: \( u(x) = x^3 \) and \( v(x) = (2x^2 + 3)^4 \).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Apply the &lt;strong>Product Rule&lt;/strong>:
+\[
+ \frac{d}{dx}[u(x)v(x)] = u'(x)v(x) + u(x)v'(x)
+ \]&lt;/li>
+&lt;li>Differentiate \( u(x) = x^3 \):
+\[
+ u'(x) = 3x^2
+ \]&lt;/li>
+&lt;li>Differentiate \( v(x) = (2x^2 + 3)^4 \) using the &lt;strong>Chain Rule&lt;/strong>:
+&lt;ul>
+&lt;li>Outer function: \( w^4 \), where \( w = 2x^2 + 3 \).&lt;/li>
+&lt;li>Inner function: \( w(x) = 2x^2 + 3 \).&lt;/li>
+&lt;li>Differentiate the outer function:
+\[
+ \frac{dv}{dw} = 4w^3
+ \]&lt;/li>
+&lt;li>Differentiate the inner function:
+\[
+ \frac{dw}{dx} = 4x
+ \]&lt;/li>
+&lt;li>Multiply the derivatives:
+\[
+ v'(x) = 4(2x^2 + 3)^3 \cdot 4x = 16x(2x^2 + 3)^3
+ \]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Substitute into the Product Rule:
+\[
+ \frac{dy}{dx} = (3x^2)(2x^2 + 3)^4 + (x^3)(16x)(2x^2 + 3)^3
+ \]&lt;/li>
+&lt;li>Simplify:
+\[
+ \frac{dy}{dx} = 3x^2(2x^2 + 3)^4 + 16x^4(2x^2 + 3)^3
+ \]&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3 id="example-2-quotient-of-two-functions-with-a-composite-function">Example 2: Quotient of Two Functions with a Composite Function&lt;/h3>
+\[
+y = \frac{(x^2 + 1)^3}{x^4}
+\]&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p></description></item><item><title>2.6 Practice</title><link>http://localhost:1313/unit2/section2-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-6/practice/</guid><description>&lt;h2 id="mixed-derivative-problems">Mixed Derivative Problems:&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+\[
+y = (x^3 + 2x)(4x^2 - 3)^5
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>Identify the two factors in the product:&lt;/p>
+&lt;ul>
+&lt;li>First factor: \( u(x) = x^3 + 2x \)&lt;/li>
+&lt;li>Second factor: \( v(x) = (4x^2 - 3)^5 \)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+\[
+ \frac{dy}{dx} = u'(x)v(x) + u(x)v'(x)
+ \]&lt;/li>
+&lt;li>
+\[
+ u'(x) = 3x^2 + 2
+ \]&lt;/li>
+&lt;li>
+&lt;p>Differentiate \( v(x) \) using the &lt;strong>chain rule&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Outer function: \( w(z) = z^5 \), where \( z = 4x^2 - 3 \).&lt;/li>
+&lt;li>Inner function: \( z(x) = 4x^2 - 3 \).&lt;/li>
+&lt;li>Differentiate the outer function:
+\[
+ \frac{dw}{dz} = 5z^4
+ \]&lt;/li>
+&lt;li>Differentiate the inner function:
+\[
+ \frac{dz}{dx} = 8x
+ \]&lt;/li>
+&lt;li>Multiply the derivatives:
+\[
+ v'(x) = 5(4x^2 - 3)^4 \cdot 8x = 40x(4x^2 - 3)^4
+ \]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+\[
+ \frac{dy}{dx} = (3x^2 + 2)(4x^2 - 3)^5 + (x^3 + 2x) \cdot 40x(4x^2 - 3)^4
+ \]&lt;/li>
+&lt;li>
+\[
+ \frac{dy}{dx} = (3x^2 + 2)(4x^2 - 3)^5 + 40x^2(x^3 + 2x)(4x^2 - 3)^4
+ \]&lt;/li>
+&lt;/ol>
+\[
+\boxed{\frac{dy}{dx} = (3x^2 + 2)(4x^2 - 3)^5 + 40x^2(x^3 + 2x)(4x^2 - 3)^4}
+\]&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+\[
+y = \frac{(2x^2 + 1)^3}{x^4 - 5x + 7}
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>Identify the numerator and denominator:&lt;/p></description></item><item><title>2.7 Practice</title><link>http://localhost:1313/unit2/section2-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-7/practice/</guid><description>&lt;h2 id="tangent-line-problems">Tangent Line Problems:&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Determine the equation of the tangent line to the curve at \( x = 1 \):&lt;/p>
+\[
+y = (x^2 + 3x)(2x - 1)^2
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>Differentiate \( y \) using the &lt;strong>product rule&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>First factor: \( u(x) = x^2 + 3x \), so \( u'(x) = 2x + 3 \).&lt;/li>
+&lt;li>Second factor: \( v(x) = (2x - 1)^2 \). Using the &lt;strong>chain rule&lt;/strong>, \( v'(x) = 2(2x - 1) \cdot 2 = 4(2x - 1) \).&lt;/li>
+&lt;/ul>
+\[
+ \frac{dy}{dx} = u'(x)v(x) + u(x)v'(x)
+ \]\[
+ \frac{dy}{dx} = (2x + 3)(2x - 1)^2 + (x^2 + 3x) \cdot 4(2x - 1)
+ \]&lt;/li>
+&lt;li>
+&lt;p>Evaluate \( \frac{dy}{dx} \) at \( x = 1 \):&lt;/p></description></item><item><title>3.2 Examples</title><link>http://localhost:1313/unit3/section3-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-2/notes/</guid><description>&lt;h2 id="32-introduction-to-the-natural-logarithm-and-the-number--e--examples">3.2 Introduction to the Natural Logarithm and the Number \( e \) Examples&lt;/h2>
+&lt;h4 id="ex1-simplify-the-following-exponential-expressions">Ex1: Simplify the following exponential expressions:&lt;/h4>
+&lt;p>a) \( (e^{3x})(e^{5x}) \)&lt;br>
+&lt;strong>Solution&lt;/strong>:&lt;/p>
+&lt;p>Using the rule \( e^a \cdot e^b = e^{a+b} \):&lt;/p>
+\[
+(e^{3x})(e^{5x}) = e^{3x+5x} = e^{8x}
+\]&lt;p>b) \( \frac{e^{4x}}{e^{2x}} \)&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:&lt;/p>
+&lt;p>Using the rule \( \frac{e^a}{e^b} = e^{a-b} \):&lt;/p>
+\[
+\frac{e^{4x}}{e^{2x}} = e^{4x-2x} = e^{2x}
+\]&lt;p>c) \( (e^{2x})^3 \)&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:&lt;/p>
+&lt;p>Using the rule \( (e^a)^b = e^{ab} \):&lt;/p></description></item><item><title>3.2 Practice</title><link>http://localhost:1313/unit3/section3-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-2/practice/</guid><description>&lt;h2 id="32-natural-logarithm-and-the-number--e-">3.2 Natural Logarithm and the Number \( e \)&lt;/h2>
+&lt;h3 id="ex1">Ex1.&lt;/h3>
+&lt;p>Simplify the following exponential expression:&lt;/p>
+\[
+(e^{4x})(e^{7x})
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Using the rule \( e^a \cdot e^b = e^{a+b} \):&lt;/p>
+\[
+(e^{4x})(e^{7x}) = e^{4x+7x} = e^{11x}
+\]&lt;/details>
+&lt;hr>
+&lt;h3 id="ex2">Ex2.&lt;/h3>
+&lt;p>Simplify the following logarithmic expression:&lt;/p>
+\[
+\ln(3x) + \ln(4x)
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Using the rule \( \ln(ab) = \ln(a) + \ln(b) \):&lt;/p>
+\[
+\ln(3x) + \ln(4x) = \ln(3x \cdot 4x) = \ln(12x^2)
+\]&lt;/details>
+&lt;hr>
+&lt;h3 id="ex3">Ex3.&lt;/h3>
+&lt;p>Simplify the following logarithmic expression:&lt;/p></description></item><item><title>3.3 Examples</title><link>http://localhost:1313/unit3/section3-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-3/notes/</guid><description>&lt;h2 id="33-exponential-derivatives-examples">3.3 Exponential Derivatives: Examples&lt;/h2>
+&lt;h3 id="ex1">Ex1.&lt;/h3>
+&lt;p>Differentiate \( f(x) = e^{3x} \)&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:
+The derivative of \( e^u \) with respect to \( x \) is \( e^u \cdot u' \), where \( u = 3x \).&lt;/p>
+&lt;ol>
+&lt;li>Differentiate \( u(x) = 3x \):&lt;br>
+\( u'(x) = 3 \)
+Now apply the chain rule:
+\[
+f'(x) = e^{3x} \cdot 3
+\]
+Thus, the derivative is:
+\[
+f'(x) = 3e^{3x}
+\]&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3 id="ex2">Ex2.&lt;/h3>
+&lt;p>Differentiate \( f(x) = x^2 \cdot e^{2x} \)&lt;/p></description></item><item><title>3.3 Practice:</title><link>http://localhost:1313/unit3/section3-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-3/practice/</guid><description>&lt;h2 id="33-derivatives-of-exponential-functions">3.3 Derivatives of Exponential Functions&lt;/h2>
+&lt;h3 id="ex1">Ex1.&lt;/h3>
+&lt;p>Differentiate the following function:&lt;/p>
+\[
+f(x) = e^{2x}
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+Using the chain rule:
+\[
+\frac{d}{dx}[e^u] = e^u \cdot u'
+\]&lt;p>Let \( u = 2x \). Then \( u' = 2 \).&lt;/p>
+&lt;ol>
+&lt;li>Apply the chain rule:
+\[
+ f'(x) = e^{2x} \cdot 2
+ \]&lt;/li>
+&lt;li>Final derivative:
+\[
+ f'(x) = 2e^{2x}
+ \]&lt;/li>
+&lt;/ol>
+&lt;/details>
+&lt;hr>
+&lt;h3 id="ex2">Ex2.&lt;/h3>
+&lt;p>Differentiate the following function:&lt;/p>
+\[
+f(x) = x^3 e^x
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Using the product rule:&lt;/p></description></item><item><title>3.4 Practice:</title><link>http://localhost:1313/unit3/section3-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-4/practice/</guid><description>&lt;h2 id="34-derivatives-of-logarithmic-functions">3.4 Derivatives of Logarithmic Functions&lt;/h2>
+&lt;h3 id="ex1">Ex1.&lt;/h3>
+&lt;p>Differentiate the following function:&lt;/p>
+\[
+f(x) = \ln(4x)
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Using the chain rule:&lt;/p>
+\[
+\frac{d}{dx}[\ln(u)] = \frac{1}{u} \cdot u'
+\]&lt;p>Let \( u = 4x \). Then \( u' = 4 \).&lt;/p>
+&lt;ol>
+&lt;li>Apply the chain rule:
+\[
+ f'(x) = \frac{1}{4x} \cdot 4
+ \]&lt;/li>
+&lt;li>Simplify:
+\[
+ f'(x) = \frac{4}{4x} = \frac{1}{x}
+ \]&lt;/li>
+&lt;/ol>
+&lt;/details>
+&lt;hr>
+&lt;h3 id="ex2">Ex2.&lt;/h3>
+&lt;p>Differentiate the following function:&lt;/p>
+\[
+f(x) = x^2 \ln(x)
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Using the product rule:&lt;/p></description></item><item><title>3.5 Practice</title><link>http://localhost:1313/unit3/section3-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-5/practice/</guid><description>&lt;h2 id="practice-with-transcendental-functions-and-tangent-lines">Practice with Transcendental Functions and Tangent Lines:&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Determine the equation of the tangent line to the curve at \( x = 0 \):&lt;/p>
+\[
+y = e^{x^2} \cdot \sin(x)
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>Differentiate \( y \) using the &lt;strong>product rule&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>First factor: \( u(x) = e^{x^2} \), so \( u'(x) = 2x e^{x^2} \).&lt;/li>
+&lt;li>Second factor: \( v(x) = \sin(x) \), so \( v'(x) = \cos(x) \).&lt;/li>
+&lt;/ul>
+\[
+ \frac{dy}{dx} = u'(x)v(x) + u(x)v'(x)
+ \]\[
+ \frac{dy}{dx} = (2x e^{x^2})\sin(x) + (e^{x^2})\cos(x)
+ \]&lt;/li>
+&lt;li>
+&lt;p>Evaluate \( \frac{dy}{dx} \) at \( x = 0 \):&lt;/p></description></item><item><title>3.6 Practice</title><link>http://localhost:1313/unit3/section3-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-6/practice/</guid><description>&lt;h2 id="tangent-line-problems">Tangent Line Problems:&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Determine the equation of the tangent line to the curve at \( x = 0 \):&lt;/p>
+\[
+y = e^{x^2} \cdot \sin(x)
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>Differentiate \( y \) using the &lt;strong>product rule&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>First factor: \( u(x) = e^{x^2} \), so \( u'(x) = 2x e^{x^2} \).&lt;/li>
+&lt;li>Second factor: \( v(x) = \sin(x) \), so \( v'(x) = \cos(x) \).&lt;/li>
+&lt;/ul>
+\[
+ \frac{dy}{dx} = u'(x)v(x) + u(x)v'(x)
+ \]\[
+ \frac{dy}{dx} = (2x e^{x^2})\sin(x) + (e^{x^2})\cos(x)
+ \]&lt;/li>
+&lt;li>
+&lt;p>Evaluate \( \frac{dy}{dx} \) at \( x = 0 \):&lt;/p></description></item><item><title>3.7 Practice</title><link>http://localhost:1313/unit3/section3-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-7/practice/</guid><description>&lt;hr>
+&lt;iframe src="https://script.google.com/macros/s/AKfycbwfQBl7fvaasQOhyV-JUQt7jqL-DXpwmVTRhulyYy8BcenHFp0vgM6Zo6VgHzBDoV_RhA/exec" width="100%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...&lt;/iframe></description></item><item><title>4.1 Practice</title><link>http://localhost:1313/unit4/section4-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-1/practice/</guid><description>&lt;p>Ex1.
+Find the maximum and minimum values of the cubic polynomial \( f(x) = x^3 - 3x^2 - 9x + 5 \) using the first derivative test.&lt;/p>
+&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+&lt;/summary>
+Write the given function: \[ f(x) = x^3 - 3x^2 - 9x + 5 \] 
+Compute the derivative: \[ f'(x) = 3x^2 - 6x - 9 \] 
+Set \( f'(x) = 0 \) to find critical points: \[ 3x^2 - 6x - 9 = 0 \implies x^2 - 2x - 3 = 0 \] 
+Factorize: \[ (x - 3)(x + 1) = 0 \] 
+Critical points: \( x = 3 \) and \( x = -1 \). 
+&lt;p>Use the first derivative test to determine the behavior of \( f'(x) \) around the critical points:&lt;/p></description></item><item><title>4.2 Practice</title><link>http://localhost:1313/unit4/section4-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-2/practice/</guid><description>&lt;p>Ex1.
+Determine the intervals where the function \( f(x) = x^3 - 6x^2 + 9x + 2 \) is increasing or decreasing.&lt;/p>
+&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+&lt;/summary>
+Write the given function: \[ f(x) = x^3 - 6x^2 + 9x + 2 \] 
+Compute the derivative: \[ f'(x) = 3x^2 - 12x + 9 \] 
+Set \( f'(x) = 0 \) to find critical points: \[ 3x^2 - 12x + 9 = 0 \implies x^2 - 4x + 3 = 0 \] 
+Factorize: \[ (x - 3)(x - 1) = 0 \] 
+Critical points: \( x = 1 \) and \( x = 3 \). 
+&lt;p>Use the first derivative test to determine the behavior of \( f'(x) \) around the critical points:&lt;/p></description></item><item><title>4.3 Practice</title><link>http://localhost:1313/unit4/section4-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-3/practice/</guid><description>&lt;p>Ex1.
+Determine the points of inflection for the function \( f(x) = x^3 - 6x^2 + 9x + 2 \).&lt;/p>
+&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+&lt;/summary>
+Write the given function: \[ f(x) = x^3 - 6x^2 + 9x + 2 \] 
+Compute the first derivative: \[ f'(x) = 3x^2 - 12x + 9 \] 
+Compute the second derivative: \[ f''(x) = 6x - 12 \] 
+Set \( f''(x) = 0 \) to find potential points of inflection: \[ 6x - 12 = 0 \implies x = 2 \] 
+&lt;p>Check the concavity around \( x = 2 \):&lt;/p></description></item><item><title>4.4 Practice</title><link>http://localhost:1313/unit4/section4-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-4/practice/</guid><description>&lt;p>Ex1.
+Determine the intervals where the function \( f(x) = x^3 - 4x^2 + 5x - 1 \) is concave up or concave down.&lt;/p>
+&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+&lt;/summary>
+Write the given function: 
+\[ f(x) = x^3 - 4x^2 + 5x - 1 \] 
+\[ f'(x) = 3x^2 - 8x + 5 \]\[ f''(x) = 6x - 8 \]\[ 6x - 8 = 0 \implies x = \frac{4}{3} \]&lt;p>Check the concavity around \( x = \frac{4}{3} \):&lt;/p></description></item><item><title>4.5 Practice</title><link>http://localhost:1313/unit4/section4-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-5/practice/</guid><description>&lt;p>Ex1.
+Analyze and sketch the graph of the function \( f(x) = x^3 - 4x^2 + 5x - 1 \).&lt;/p>
+&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+&lt;/summary>
+Write the given function: 
+\[ f(x) = x^3 - 4x^2 + 5x - 1 \]
+&lt;h3 id="step-1-domain">Step 1: Domain&lt;/h3>
+&lt;p>The domain of \( f(x) \) is all real numbers: \( (-\infty, \infty) \).&lt;/p>
+&lt;h3 id="step-2-intercepts">Step 2: Intercepts&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>\( y \)-intercept&lt;/strong>: Set \( x = 0 \):&lt;br>
+\[ f(0) = (0)^3 - 4(0)^2 + 5(0) - 1 = -1 \] (\( y \)-intercept is \( (0, -1) \)).&lt;/li>
+&lt;li>&lt;strong>\( x \)-intercepts&lt;/strong>: Solve \( f(x) = 0 \). Factoring may be challenging here, so numerical or graphical methods can be used.&lt;/li>
+&lt;/ul>
+&lt;h3 id="step-3-first-derivative-test">Step 3: First Derivative Test&lt;/h3>
+\[ f'(x) = 3x^2 - 8x + 5 \]\[ 3x^2 - 8x + 5 = 0 \implies x = \frac{-(-8) \pm \sqrt{(-8)^2 - 4(3)(5)}}{2(3)} = \frac{8 \pm \sqrt{64 - 60}}{6} = \frac{8 \pm 2}{6} \]&lt;p>&lt;br>
+Critical points: \( x = \frac{10}{6} = \frac{5}{3} \) and \( x = 1 \).&lt;/p></description></item><item><title>4.6 Practice</title><link>http://localhost:1313/unit4/section4-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-6/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>4.7 Practice</title><link>http://localhost:1313/unit4/section4-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-7/practice/</guid><description>&lt;hr>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Reconstruct the quadratic function $ f(x) = ax^2 + bx + c $ given the following conditions:&lt;/p>
+&lt;ul>
+&lt;li>$ f(0) = 3 $&lt;/li>
+&lt;li>$ f&amp;rsquo;(1) = 4 $&lt;/li>
+&lt;li>$ f(2) = 7 $&lt;/li>
+&lt;/ul>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+\[
+ f(x) = ax^2 + bx + c
+ \]&lt;/li>
+&lt;li>
+\[
+ f'(x) = 2ax + b
+ \]&lt;/li>
+&lt;li>
+&lt;p>Translate the conditions into equations:&lt;/p>
+&lt;ul>
+&lt;li>From $ f(0) = 3 $:
+\[
+ a(0)^2 + b(0) + c = 3 \implies c = 3
+ \]&lt;/li>
+&lt;li>From $ f&amp;rsquo;(1) = 4 $:
+\[
+ 2a(1) + b = 4 \implies 2a + b = 4
+ \]&lt;/li>
+&lt;li>From $ f(2) = 7 $:
+\[
+ a(2)^2 + b(2) + c = 7 \implies 4a + 2b + c = 7
+ \]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Solve the system of equations:&lt;/p></description></item><item><title>5.1 Practice</title><link>http://localhost:1313/unit5/section5-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-1/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.2 Practice</title><link>http://localhost:1313/unit5/section5-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-2/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.3 Practice</title><link>http://localhost:1313/unit5/section5-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-3/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.4 Practice</title><link>http://localhost:1313/unit5/section5-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-4/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.5 Practice</title><link>http://localhost:1313/unit5/section5-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-5/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.6 Practice</title><link>http://localhost:1313/unit5/section5-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-6/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.7 Practice</title><link>http://localhost:1313/unit5/section5-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-7/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.1 Practice</title><link>http://localhost:1313/unit6/section6-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-1/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.2 Practice</title><link>http://localhost:1313/unit6/section6-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-2/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.3 Practice</title><link>http://localhost:1313/unit6/section6-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-3/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.4 Practice</title><link>http://localhost:1313/unit6/section6-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-4/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.5 Practice</title><link>http://localhost:1313/unit6/section6-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-5/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.6 Practice</title><link>http://localhost:1313/unit6/section6-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-6/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.7 Practice</title><link>http://localhost:1313/unit6/section6-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit6/section6-7/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.1 Practice</title><link>http://localhost:1313/unit7/section7-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-1/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.2 Practice</title><link>http://localhost:1313/unit7/section7-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-2/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.3 Practice</title><link>http://localhost:1313/unit7/section7-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-3/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.4 Practice</title><link>http://localhost:1313/unit7/section7-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-4/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.5 Practice</title><link>http://localhost:1313/unit7/section7-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-5/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.6 Practice</title><link>http://localhost:1313/unit7/section7-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-6/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.7 Practice</title><link>http://localhost:1313/unit7/section7-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit7/section7-7/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.1 Practice</title><link>http://localhost:1313/unit8/section8-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-1/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.2 Practice</title><link>http://localhost:1313/unit8/section8-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-2/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.3 Practice</title><link>http://localhost:1313/unit8/section8-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-3/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.4 Practice</title><link>http://localhost:1313/unit8/section8-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-4/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.5 Practice</title><link>http://localhost:1313/unit8/section8-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-5/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.6 Practice</title><link>http://localhost:1313/unit8/section8-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-6/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.7 Practice</title><link>http://localhost:1313/unit8/section8-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit8/section8-7/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!
+S&lt;/p></description></item><item><title>3.1 Practice:</title><link>http://localhost:1313/unit3/section3-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit3/section3-1/practice/</guid><description>&lt;h2 id="31-derivatives-of-trigonometric-functions">3.1 Derivatives of Trigonometric Functions&lt;/h2>
+&lt;h3 id="ex1">Ex1.&lt;/h3>
+&lt;p>Differentiate the following function:&lt;/p>
+\[
+f(x) = \sin(3x)
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Using the chain rule:&lt;/p>
+\[
+\frac{d}{dx}[\sin(u)] = \cos(u) \cdot u'
+\]&lt;p>Let \( u = 3x \). Then \( u' = 3 \).&lt;/p>
+&lt;ol>
+&lt;li>Apply the chain rule:
+\[
+ f'(x) = \cos(3x) \cdot 3
+ \]&lt;/li>
+&lt;li>Final derivative:
+\[
+ f'(x) = 3\cos(3x)
+ \]&lt;/li>
+&lt;/ol>
+&lt;/details>
+&lt;hr>
+&lt;h3 id="ex2">Ex2.&lt;/h3>
+&lt;p>Differentiate the following function:&lt;/p>
+\[
+f(x) = x^2 \cos(x)
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Using the product rule:&lt;/p></description></item></channel></rss>

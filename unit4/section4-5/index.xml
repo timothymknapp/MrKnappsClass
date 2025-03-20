@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>4.5 Curve Sketching on Calculus Hub</title><link>http://localhost:1313/unit4/section4-5/</link><description>Recent content in 4.5 Curve Sketching on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/unit4/section4-5/index.xml" rel="self" type="application/rss+xml"/><item><title>4.5 Notes</title><link>http://localhost:1313/unit4/section4-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-5/notes/</guid><description>&lt;h2 id="ex-1">Ex 1:&lt;/h2>
+&lt;p>Analyzing the Graph of \( y = e^{-x-3} \) Using First and Second Derivative Tests&lt;/p>
+&lt;h2 id="step-1-find-the-first-derivative">Step 1: Find the First Derivative&lt;/h2>
+&lt;p>To find the first derivative \( y' \) of \( y = e^{-x-3} \), we differentiate directly with respect to \( x \):&lt;/p>
+\[
+y = e^{-x-3}
+\]&lt;p>The derivative of \( e^{u} \) where \( u = -x - 3 \) is \( e^u \cdot \frac{du}{dx} \). Here, \( \frac{du}{dx} = -1 \), so:&lt;/p></description></item><item><title>4.5 Practice</title><link>http://localhost:1313/unit4/section4-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-5/practice/</guid><description>&lt;p>Ex1.
+Analyze and sketch the graph of the function \( f(x) = x^3 - 4x^2 + 5x - 1 \).&lt;/p>
+&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+&lt;/summary>
+Write the given function: 
+\[ f(x) = x^3 - 4x^2 + 5x - 1 \]
+&lt;h3 id="step-1-domain">Step 1: Domain&lt;/h3>
+&lt;p>The domain of \( f(x) \) is all real numbers: \( (-\infty, \infty) \).&lt;/p>
+&lt;h3 id="step-2-intercepts">Step 2: Intercepts&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>\( y \)-intercept&lt;/strong>: Set \( x = 0 \):&lt;br>
+\[ f(0) = (0)^3 - 4(0)^2 + 5(0) - 1 = -1 \] (\( y \)-intercept is \( (0, -1) \)).&lt;/li>
+&lt;li>&lt;strong>\( x \)-intercepts&lt;/strong>: Solve \( f(x) = 0 \). Factoring may be challenging here, so numerical or graphical methods can be used.&lt;/li>
+&lt;/ul>
+&lt;h3 id="step-3-first-derivative-test">Step 3: First Derivative Test&lt;/h3>
+\[ f'(x) = 3x^2 - 8x + 5 \]\[ 3x^2 - 8x + 5 = 0 \implies x = \frac{-(-8) \pm \sqrt{(-8)^2 - 4(3)(5)}}{2(3)} = \frac{8 \pm \sqrt{64 - 60}}{6} = \frac{8 \pm 2}{6} \]&lt;p>&lt;br>
+Critical points: \( x = \frac{10}{6} = \frac{5}{3} \) and \( x = 1 \).&lt;/p></description></item></channel></rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2.4 Quotient Rule on Calculus Hub</title><link>http://localhost:1313/unit2/section2-4/</link><description>Recent content in 2.4 Quotient Rule on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/unit2/section2-4/index.xml" rel="self" type="application/rss+xml"/><item><title>2.4 Examples:</title><link>http://localhost:1313/unit2/section2-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-4/notes/</guid><description>&lt;h3 id="example-1-simple-rational-function">Example 1: Simple Rational Function&lt;/h3>
+&lt;p>Differentiate the following function using the quotient rule:&lt;/p>
+\[
+f(x) = \frac{x^2 + 2x}{x + 1}
+\]&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Let \( u(x) = x^2 + 2x \) and \( v(x) = x + 1 \).&lt;/li>
+&lt;li>The derivatives are:
+&lt;ul>
+&lt;li>\( u'(x) = 2x + 2 \)&lt;/li>
+&lt;li>\( v'(x) = 1 \)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Applying the quotient rule:&lt;/p>
+\[
+f'(x) = \frac{(x + 1)(2x + 2) - (x^2 + 2x)(1)}{(x + 1)^2}
+\]&lt;p>Now, simplify the numerator:&lt;/p></description></item><item><title>2.4 Practice:</title><link>http://localhost:1313/unit2/section2-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit2/section2-4/practice/</guid><description>&lt;h3 id="24-quotient-rule">2.4 Quotient Rule&lt;/h3>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Differentiate the following function using the quotient rule:&lt;/p>
+\[
+f(x) = \frac{x^3 + 5x}{x^2 - 1}
+\]&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+\[
+\frac{d}{dx} \left( \frac{u}{v} \right) = \frac{v \cdot u' - u \cdot v'}{v^2}
+\]&lt;p>
+Let \( u = x^3 + 5x \) and \( v = x^2 - 1 \).&lt;/p>
+&lt;ol>
+&lt;li>
+\[
+ u' = 3x^2 + 5, \quad v' = 2x
+ \]&lt;/li>
+&lt;li>
+\[
+ f'(x) = \frac{(x^2 - 1)(3x^2 + 5) - (x^3 + 5x)(2x)}{(x^2 - 1)^2}
+ \]&lt;/li>
+&lt;li>
+\[
+ (x^2 - 1)(3x^2 + 5) = 3x^4 + 5x^2 - 3x^2 - 5 = 3x^4 + 2x^2 - 5
+ \]\[
+ (x^3 + 5x)(2x) = 2x^4 + 10x^2
+ \]\[
+ (3x^4 + 2x^2 - 5) - (2x^4 + 10x^2) = x^4 - 8x^2 - 5
+ \]&lt;/li>
+&lt;li>
+\[
+ f'(x) = \frac{x^4 - 8x^2 - 5}{(x^2 - 1)^2}
+ \]&lt;/li>
+&lt;/ol>
+&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+&lt;p>Differentiate the following function:&lt;/p></description></item></channel></rss>

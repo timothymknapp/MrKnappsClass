@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1.4 Limits in Algebra on Calculus Hub</title><link>http://localhost:1313/unit1/section1-4/</link><description>Recent content in 1.4 Limits in Algebra on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/unit1/section1-4/index.xml" rel="self" type="application/rss+xml"/><item><title>1.4 Examples</title><link>http://localhost:1313/unit1/section1-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-4/notes/</guid><description>&lt;h3 id="example-1-evalute-the-limit-using-the-conjugate">Example 1: Evalute the Limit using the Conjugate&lt;/h3>
+&lt;p>Evaluate the following limit:&lt;/p>
+$$\lim_{{x \to 0}} \frac{5 - \sqrt{x^2 + 25}}{x^2}$$&lt;ol>
+&lt;li>&lt;strong>Multiply by the conjugate of the numerator&lt;/strong>:
+&lt;ul>
+&lt;li>The conjugate of \(5 - \sqrt{x^2 + 25}\) is \(5 + \sqrt{x^2 + 25}\).&lt;/li>
+&lt;li>Multiply the numerator and the denominator by the conjugate:&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+\[
+ \lim_{{x \to 0}} \frac{(5 - \sqrt{x^2 + 25})(5 + \sqrt{x^2 + 25})}{x^2 (5 + \sqrt{x^2 + 25})}
+ \]&lt;ol start="2">
+&lt;li>&lt;strong>Simplify the numerator&lt;/strong>:
+&lt;ul>
+&lt;li>Use the difference of squares formula:&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+\[
+ (5 - \sqrt{x^2 + 25})(5 + \sqrt{x^2 + 25}) = 5^2 - (\sqrt{x^2 + 25})^2 = 25 - (x^2 + 25) = 25 - x^2 - 25 = -x^2
+ \]&lt;ul>
+&lt;li>So the expression becomes:&lt;/li>
+&lt;/ul>
+\[
+ \lim_{{x \to 0}} \frac{-x^2}{x^2 (5 + \sqrt{x^2 + 25})}
+ \]&lt;ol start="3">
+&lt;li>&lt;strong>Cancel out \(x^2\) in the numerator and the denominator&lt;/strong>:&lt;/li>
+&lt;/ol>
+\[
+ \lim_{{x \to 0}} \frac{-x^2}{x^2 (5 + \sqrt{x^2 + 25})} = \lim_{{x \to 0}} \frac{-1}{5 + \sqrt{x^2 + 25}}
+ \]&lt;ol start="4">
+&lt;li>
+&lt;p>&lt;strong>Evaluate the limit&lt;/strong>:&lt;/p></description></item><item><title>1.4 Practice</title><link>http://localhost:1313/unit1/section1-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-4/practice/</guid><description>&lt;h3 id="14-algebraic-limits">1.4 Algebraic Limits&lt;/h3>
+&lt;h4 id="ex1">Ex1&lt;/h4>
+&lt;p>Evaluate the limit:&lt;/p>
+\[ \lim_{{x \to 3}} (2x + 5) \]&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Since the expression \(2x + 5\) is a polynomial, we can directly substitute \(x = 3\) into the expression:&lt;/p>
+\[
+\lim_{{x \to 3}} (2x + 5) = 2(3) + 5 = 6 + 5 = 11
+\]&lt;p>So, the limit is:&lt;/p>
+\[
+\boxed{11}
+\]&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2&lt;/h4>
+&lt;p>Evaluate the limit:&lt;/p>
+\[ \lim_{{x \to 2}} \frac{x^2 + 1}{x - 1} \]&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Since the expression \(\frac{x^2 + 1}{x - 1}\) is a rational function and the denominator does not approach zero as \(x\) approaches 2, we can directly substitute \(x = 2\) into the expression:&lt;/p></description></item></channel></rss>

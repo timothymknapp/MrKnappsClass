@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>4.1 Max and Min on Calculus Hub</title><link>http://localhost:1313/unit4/section4-1/</link><description>Recent content in 4.1 Max and Min on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/unit4/section4-1/index.xml" rel="self" type="application/rss+xml"/><item><title>4.1 Examples</title><link>http://localhost:1313/unit4/section4-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-1/notes/</guid><description>&lt;p>Finding Maximum and Minimum Values Using the First Derivative Test
+In this section, we will work through examples that demonstrate how to find the local maximum and minimum values of functions using the &lt;strong>first derivative test&lt;/strong>. These examples will include polynomial, rational, trigonometric, and composite functions. By the end of this section, students will:&lt;/p>
+&lt;ul>
+&lt;li>Understand how to use the first derivative test to determine critical points.&lt;/li>
+&lt;li>Classify critical points as local maxima, local minima, or neither.&lt;/li>
+&lt;li>Solve problems involving various types of functions.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="example-1-polynomial-function">Example 1: Polynomial Function&lt;/h3>
+&lt;p>Find the local maximum and minimum values of the function \( f(x) = x^3 - 3x^2 - 9x + 5 \).&lt;/p></description></item><item><title>4.1 Practice</title><link>http://localhost:1313/unit4/section4-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit4/section4-1/practice/</guid><description>&lt;p>Ex1.
+Find the maximum and minimum values of the cubic polynomial \( f(x) = x^3 - 3x^2 - 9x + 5 \) using the first derivative test.&lt;/p>
+&lt;details>
+&lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+&lt;/summary>
+Write the given function: \[ f(x) = x^3 - 3x^2 - 9x + 5 \] 
+Compute the derivative: \[ f'(x) = 3x^2 - 6x - 9 \] 
+Set \( f'(x) = 0 \) to find critical points: \[ 3x^2 - 6x - 9 = 0 \implies x^2 - 2x - 3 = 0 \] 
+Factorize: \[ (x - 3)(x + 1) = 0 \] 
+Critical points: \( x = 3 \) and \( x = -1 \). 
+&lt;p>Use the first derivative test to determine the behavior of \( f'(x) \) around the critical points:&lt;/p></description></item></channel></rss>
