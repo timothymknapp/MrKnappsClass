@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>3.4 Logarithmic Derivatives on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-4/</link><description>Recent content in 3.4 Logarithmic Derivatives on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit3/section3-4/index.xml" rel="self" type="application/rss+xml"/><item><title>3.4 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-4/notes/</guid><description>&lt;h3 id="34-logarithmic-derivatives-examples">3.4 Logarithmic Derivatives: Examples&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>3.4 Logarithmic Derivatives on Calculus Hub</title><link>https://mr.knapp.surge.sh/unit3/section3-4/</link><description>Recent content in 3.4 Logarithmic Derivatives on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://mr.knapp.surge.sh/unit3/section3-4/index.xml" rel="self" type="application/rss+xml"/><item><title>3.4 Examples</title><link>https://mr.knapp.surge.sh/unit3/section3-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit3/section3-4/notes/</guid><description>&lt;h3 id="34-logarithmic-derivatives-examples">3.4 Logarithmic Derivatives: Examples&lt;/h3>
 &lt;h4 id="ex1">Ex1.&lt;/h4>
 &lt;p>Differentiate \( f(x) = \ln(5x) \)&lt;/p>
 &lt;p>&lt;strong>Solution&lt;/strong>:&lt;br>
@@ -19,7 +19,7 @@ The derivative of \( \ln(u) \) with respect to \( x \) is \( \frac{1}{u} \cdot u
 f'(x) = \frac{1}{x}
 \]&lt;hr>
 &lt;h4 id="ex2">Ex2.&lt;/h4>
-&lt;p>Differentiate \( f(x) = \ln(x^2 + 1) \)&lt;/p></description></item><item><title>3.4 Practice:</title><link>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-4/practice/</guid><description>&lt;h2 id="34-derivatives-of-logarithmic-functions">3.4 Derivatives of Logarithmic Functions&lt;/h2>
+&lt;p>Differentiate \( f(x) = \ln(x^2 + 1) \)&lt;/p></description></item><item><title>3.4 Practice:</title><link>https://mr.knapp.surge.sh/unit3/section3-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit3/section3-4/practice/</guid><description>&lt;h2 id="34-derivatives-of-logarithmic-functions">3.4 Derivatives of Logarithmic Functions&lt;/h2>
 &lt;h3 id="ex1">Ex1.&lt;/h3>
 &lt;p>Differentiate the following function:&lt;/p>
 \[

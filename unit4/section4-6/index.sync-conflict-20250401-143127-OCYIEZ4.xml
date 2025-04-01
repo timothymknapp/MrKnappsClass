@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.6  Reconstructing Graphs on Calculus Hub</title>
+    <link>https://mr.knapp.surge.sh/unit4/section4-6/</link>
+    <description>Recent content in 4.6  Reconstructing Graphs on Calculus Hub</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://mr.knapp.surge.sh/unit4/section4-6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.6 Examples</title>
+      <link>https://mr.knapp.surge.sh/unit4/section4-6/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mr.knapp.surge.sh/unit4/section4-6/notes/</guid>
+      <description>&lt;h2 id=&#34;graphs-of-first-and-second-derivatives&#34;&gt;Graphs of First and Second Derivatives:&lt;/h2&gt;&#xA;&lt;h3 id=&#34;ex-1-first-and-second-derivative-of-a-function&#34;&gt;Ex 1: First and Second Derivative of a Function&lt;/h3&gt;&#xA;&lt;p&gt;a. Draw the &lt;strong&gt;first derivative&lt;/strong&gt; of the given function over the graph.&lt;/p&gt;&#xA;&lt;p&gt;b. Draw the &lt;strong&gt;second derivative&lt;/strong&gt; of the given function over the graph.&lt;/p&gt;&#xA;&lt;div style=&#34;margin: 0 auto; width: fit-content;&#34;&gt;&#xA;    &lt;iframe src=&#34;https://www.desmos.com/calculator/uud44phnxo?embed&#34; width=&#34;500&#34; height=&#34;500&#34; style=&#34;border: 1px solid #ccc&#34; frameborder=0&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution for First Derivative&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;margin: 0 auto; width: fit-content;&#34;&gt;&#xA;    &lt;iframe src=&#34;https://www.desmos.com/calculator/bqgujtufkz?embed&#34; width=&#34;500&#34; height=&#34;500&#34; style=&#34;border: 1px solid #ccc&#34; frameborder=0&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution for Second Derivative&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;margin: 0 auto; width: fit-content;&#34;&gt;&#xA;    &lt;iframe src=&#34;https://www.desmos.com/calculator/vef0149ria?embed&#34; width=&#34;500&#34; height=&#34;500&#34; style=&#34;border: 1px solid #ccc&#34; frameborder=0&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;ex-2-first-and-second-derivative-from-a-function&#34;&gt;Ex 2: First and Second Derivative from a Function&lt;/h3&gt;&#xA;&lt;p&gt;a. Draw the &lt;strong&gt;first derivative&lt;/strong&gt; of the given function over the graph.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4.6 Practice</title>
+      <link>https://mr.knapp.surge.sh/unit4/section4-6/practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mr.knapp.surge.sh/unit4/section4-6/practice/</guid>
+      <description>&lt;p&gt;Welcome to &lt;strong&gt;Calculus Hub&lt;/strong&gt;, your one-stop resource for mastering Calculus!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
