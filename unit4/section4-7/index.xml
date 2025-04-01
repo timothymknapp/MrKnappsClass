@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>4.7 Building Functions on Calculus Hub</title><link>https://mr.knapp.surge.sh/unit4/section4-7/</link><description>Recent content in 4.7 Building Functions on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://mr.knapp.surge.sh/unit4/section4-7/index.xml" rel="self" type="application/rss+xml"/><item><title>4.7 Examples</title><link>https://mr.knapp.surge.sh/unit4/section4-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit4/section4-7/notes/</guid><description>&lt;hr>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>4.7 Building Functions on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit4/section4-7/</link><description>Recent content in 4.7 Building Functions on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit4/section4-7/index.xml" rel="self" type="application/rss+xml"/><item><title>4.7 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit4/section4-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit4/section4-7/notes/</guid><description>&lt;hr>
 &lt;h3 id="example-1-reconstructing-a-cubic-polynomial">Example 1: Reconstructing a Cubic Polynomial&lt;/h3>
 &lt;p>Reconstruct the cubic polynomial $ f(x) = ax^3 + bx^2 + cx + d $ given the following conditions:&lt;/p>
 &lt;ul>
@@ -68,7 +68,7 @@
 &lt;/ol>
 &lt;hr>
 &lt;h3 id="example-2-reconstructing-an-exponential-function">Example 2: Reconstructing an Exponential Function&lt;/h3>
-&lt;p>Reconstruct the exponential function $ f(x) = Ae^{kx} + C $ given the following conditions:&lt;/p></description></item><item><title>4.7 Practice</title><link>https://mr.knapp.surge.sh/unit4/section4-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit4/section4-7/practice/</guid><description>&lt;hr>
+&lt;p>Reconstruct the exponential function $ f(x) = Ae^{kx} + C $ given the following conditions:&lt;/p></description></item><item><title>4.7 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit4/section4-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit4/section4-7/practice/</guid><description>&lt;hr>
 &lt;h4 id="ex1">Ex1.&lt;/h4>
 &lt;p>Reconstruct the quadratic function $ f(x) = ax^2 + bx + c $ given the following conditions:&lt;/p>
 &lt;ul>

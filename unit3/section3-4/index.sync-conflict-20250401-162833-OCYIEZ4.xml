@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.4 Logarithmic Derivatives on Calculus Hub</title>
+    <link>http://localhost:40775/MrKnappsClass/unit3/section3-4/</link>
+    <description>Recent content in 3.4 Logarithmic Derivatives on Calculus Hub</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:40775/MrKnappsClass/unit3/section3-4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.4 Examples</title>
+      <link>http://localhost:40775/MrKnappsClass/unit3/section3-4/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:40775/MrKnappsClass/unit3/section3-4/notes/</guid>
+      <description>&lt;h3 id=&#34;34-logarithmic-derivatives-examples&#34;&gt;3.4 Logarithmic Derivatives: Examples&lt;/h3&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;Differentiate \( f(x) = \ln(5x) \)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br&gt;&#xA;The derivative of \( \ln(u) \) with respect to \( x \) is \( \frac{1}{u} \cdot u&#39; \), where \( u = 5x \).&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Differentiate \( u(x) = 5x \):&lt;br&gt;&#xA;\( u&#39;(x) = 5 \)&lt;/li&gt;&#xA;&lt;li&gt;Apply the chain rule:&lt;br&gt;&#xA;\[&#xA;   f&#39;(x) = \frac{1}{5x} \cdot 5&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;Simplify:&lt;br&gt;&#xA;\[&#xA;   f&#39;(x) = \frac{5}{5x} = \frac{1}{x}&#xA;   \]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;\[&#xA;f&#39;(x) = \frac{1}{x}&#xA;\]&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex2&#34;&gt;Ex2.&lt;/h4&gt;&#xA;&lt;p&gt;Differentiate \( f(x) = \ln(x^2 + 1) \)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3.4 Practice:</title>
+      <link>http://localhost:40775/MrKnappsClass/unit3/section3-4/practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:40775/MrKnappsClass/unit3/section3-4/practice/</guid>
+      <description>&lt;h2 id=&#34;34-derivatives-of-logarithmic-functions&#34;&gt;3.4 Derivatives of Logarithmic Functions&lt;/h2&gt;&#xA;&lt;h3 id=&#34;ex1&#34;&gt;Ex1.&lt;/h3&gt;&#xA;&lt;p&gt;Differentiate the following function:&lt;/p&gt;&#xA;\[&#xA;f(x) = \ln(4x)&#xA;\]&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;p&gt;Using the chain rule:&lt;/p&gt;&#xA;\[&#xA;\frac{d}{dx}[\ln(u)] = \frac{1}{u} \cdot u&#39;&#xA;\]&lt;p&gt;Let \( u = 4x \). Then \( u&#39; = 4 \).&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Apply the chain rule:&#xA;\[&#xA;   f&#39;(x) = \frac{1}{4x} \cdot 4&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;Simplify:&#xA;\[&#xA;   f&#39;(x) = \frac{4}{4x} = \frac{1}{x}&#xA;   \]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/details&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;ex2&#34;&gt;Ex2.&lt;/h3&gt;&#xA;&lt;p&gt;Differentiate the following function:&lt;/p&gt;&#xA;\[&#xA;f(x) = x^2 \ln(x)&#xA;\]&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;p&gt;Using the product rule:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

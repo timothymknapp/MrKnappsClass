@@ -1,0 +1,7959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/MrKnappsClass/livereload.js?mindelay=10&amp;v=2&amp;port=40775&amp;path=MrKnappsClass/livereload" data-no-instant defer></script>
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)'], ['$', '$']]      
+    }
+  };
+</script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.2 Examples :: Calculus Hub</title>
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/MrKnappsClass/images/favicon.png" type="image/png">
+
+    
+
+    
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']], 
+        displayMath: [['$$', '$$'], ['\\[', '\\]']], 
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+    
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ]
+    });
+  });
+</script>
+    
+
+
+</head>
+<body>
+   
+    <!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.141.0">
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/MrKnappsClass/images/favicon.png" type="image/png">
+
+    <title>4.2 Examples :: Calculus Hub</title>
+    
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+    
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']], 
+        displayMath: [['$$', '$$'], ['\\[', '\\]']], 
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+    
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: true },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ]
+    });
+  });
+</script>
+
+    
+    <link href="/MrKnappsClass/css/nucleus.css?1743517650" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/fontawesome-all.min.css?1743517650" rel="stylesheet">
+    
+    
+    <link href="/MrKnappsClass/css/perfect-scrollbar.min.css?1743517650" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/auto-complete.css?1743517650" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/atom-one-dark-reasonable.css?1743517650" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/theme.css?1743517650" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/tabs.css?1743517650" rel="stylesheet">
+    
+    <link href="/MrKnappsClass/css/hugo-theme.css?1743517650" rel="stylesheet">
+    
+    
+    <link href="/MrKnappsClass/theme-red.css?1743517650" rel="stylesheet">
+
+    <script src="/MrKnappsClass/js/jquery-3.3.1.min.js?1743517650"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+    
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/MrKnappsClass/unit4/section4-2/notes/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <header>
+   <a href="https://www.canadiancollegeitaly.com" target="_blank">
+       <img src="/images/cci_logo.png" alt="CCI Logo">
+   </a>
+</header>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/MrKnappsClass/js/lunr.min.js?1743517650"></script>
+<script type="text/javascript" src="/MrKnappsClass/js/auto-complete.js?1743517650"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/localhost:40775\/MrKnappsClass\/";
+    
+</script>
+<script type="text/javascript" src="/MrKnappsClass/js/search.js?1743517650"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li id="home">
+            <a class="padding" href='/'><i class='fas fa-home'></i> MCV4U</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit1/" title="Unit 1: Rates of Change" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit1/">
+          Unit 1: Rates of Change
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit1/section1-1/" title="1.1 Average Rates of Change" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit1/section1-1/">
+          1.1 Average Rates of Change
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-1/notes/" title="1.1 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-1/notes/">
+        1.1 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-1/practice/" title="1.1 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-1/practice/">
+        1.1 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit1/section1-2/" title="1.2 Instantaneous Rates of Change" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit1/section1-2/">
+          1.2 Instantaneous Rates of Change
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-2/notes/" title="1.2 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-2/notes/">
+        1.2 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-2/practice/" title="1.2 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-2/practice/">
+        1.2 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit1/section1-3/" title="1.3 Limits on Graphs" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit1/section1-3/">
+          1.3 Limits on Graphs
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-3/notes/" title="1.3 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-3/notes/">
+        1.3 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-3/practice/" title="1.3 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-3/practice/">
+        1.3 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit1/section1-4/" title="1.4 Limits in Algebra" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit1/section1-4/">
+          1.4 Limits in Algebra
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-4/notes/" title="1.4 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-4/notes/">
+        1.4 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-4/practice/" title="1.4 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-4/practice/">
+        1.4 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit1/section1-5/" title="1.5 Continuity" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit1/section1-5/">
+          1.5 Continuity
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-5/notes/" title="1.5 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-5/notes/">
+        1.5 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-5/practice/" title="1.5 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-5/practice/">
+        1.5 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit1/section1-6/" title="1.6 Differentiability" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit1/section1-6/">
+          1.6 Differentiability
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-6/notes/" title="1.6 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-6/notes/">
+        1.6 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-6/practice/" title="1.6 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-6/practice/">
+        1.6 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit1/section1-7/" title="1.7 Tangent Lines" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit1/section1-7/">
+          1.7 Tangent Lines
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-7/notes/" title="1.7 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-7/notes/">
+        1.7 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit1/section1-7/practice/" title="1.7 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit1/section1-7/practice/">
+        1.7 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit2/" title="Unit 2: Derivative Rules" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit2/">
+          Unit 2: Derivative Rules
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit2/section2-1/" title="2.1 Power Rule" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit2/section2-1/">
+          2.1 Power Rule
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-1/notes/" title="2.1 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-1/notes/">
+        2.1 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-1/practice/" title="2.1 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-1/practice/">
+        2.1 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit2/section2-2/" title="2.2 Sum and Difference Rules" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit2/section2-2/">
+          2.2 Sum and Difference Rules
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-2/notes/" title="2.2 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-2/notes/">
+        2.2 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-2/practice/" title="2.2 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-2/practice/">
+        2.2 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit2/section2-3/" title="2.3 Product Rule" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit2/section2-3/">
+          2.3 Product Rule
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-3/notes/" title="2.3 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-3/notes/">
+        2.3 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-3/practice/" title="2.3 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-3/practice/">
+        2.3 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit2/section2-4/" title="2.4 Quotient Rule" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit2/section2-4/">
+          2.4 Quotient Rule
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-4/notes/" title="2.4 Examples:" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-4/notes/">
+        2.4 Examples:
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-4/practice/" title="2.4 Practice:" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-4/practice/">
+        2.4 Practice:
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit2/section2-5/" title="2.5 Chain Rule" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit2/section2-5/">
+          2.5 Chain Rule
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-5/notes/" title="2.5 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-5/notes/">
+        2.5 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-5/practice/" title="2.5 Practice:" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-5/practice/">
+        2.5 Practice:
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit2/section2-6/" title="2.6 Mixxed Derivatives" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit2/section2-6/">
+          2.6 Mixxed Derivatives
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-6/notes/" title="2.6 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-6/notes/">
+        2.6 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-6/practice/" title="2.6 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-6/practice/">
+        2.6 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit2/section2-7/" title="2.7 Equations of Tangent Lines" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit2/section2-7/">
+          2.7 Equations of Tangent Lines
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-7/notes/" title="2.7 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-7/notes/">
+        2.7 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit2/section2-7/practice/" title="2.7 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit2/section2-7/practice/">
+        2.7 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit3/" title="Unit 3: Trancendental Derivatives" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit3/">
+          Unit 3: Trancendental Derivatives
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit3/section3-1/" title="3.1 Trigonometric Derivatives" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit3/section3-1/">
+          3.1 Trigonometric Derivatives
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-1/notes/" title="3.1 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-1/notes/">
+        3.1 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-1/practice/" title="3.1 Practice:" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-1/practice/">
+        3.1 Practice:
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit3/section3-2/" title="3.2 e and the Natural Log" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit3/section3-2/">
+          3.2 e and the Natural Log
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-2/notes/" title="3.2 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-2/notes/">
+        3.2 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-2/practice/" title="3.2 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-2/practice/">
+        3.2 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit3/section3-3/" title="3.3 Exponential Derivatives" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit3/section3-3/">
+          3.3 Exponential Derivatives
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-3/notes/" title="3.3 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-3/notes/">
+        3.3 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-3/practice/" title="3.3 Practice:" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-3/practice/">
+        3.3 Practice:
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit3/section3-4/" title="3.4 Logarithmic Derivatives" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit3/section3-4/">
+          3.4 Logarithmic Derivatives
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-4/notes/" title="3.4 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-4/notes/">
+        3.4 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-4/practice/" title="3.4 Practice:" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-4/practice/">
+        3.4 Practice:
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit3/section3-5/" title="3.5 Tangent Lines" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit3/section3-5/">
+          3.5 Tangent Lines
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-5/notes/" title="3.5 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-5/notes/">
+        3.5 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-5/practice/" title="3.5 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-5/practice/">
+        3.5 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit3/section3-6/" title="3.6 Mixed Derivatives" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit3/section3-6/">
+          3.6 Mixed Derivatives
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-6/notes/" title="3.6 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-6/notes/">
+        3.6 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-6/practice/" title="3.6 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-6/practice/">
+        3.6 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit3/section3-7/" title="3.7 Derivatives of Graphs" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit3/section3-7/">
+          3.7 Derivatives of Graphs
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-7/notes/" title="3.7 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-7/notes/">
+        3.7 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit3/section3-7/practice/" title="3.7 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit3/section3-7/practice/">
+        3.7 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit4/" title="Unit 4: Curve Sketching" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit4/">
+          Unit 4: Curve Sketching
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit4/section4-1/" title="4.1 Max and Min" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit4/section4-1/">
+          4.1 Max and Min
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-1/notes/" title="4.1 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-1/notes/">
+        4.1 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-1/practice/" title="4.1 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-1/practice/">
+        4.1 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit4/section4-2/" title="4.2 Increasing and Decreasing" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit4/section4-2/">
+          4.2 Increasing and Decreasing
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-2/notes/" title="4.2 Examples" class="dd-item active">
+        <a href="/MrKnappsClass/unit4/section4-2/notes/">
+        4.2 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-2/practice/" title="4.2 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-2/practice/">
+        4.2 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit4/section4-3/" title="4.3 Points of Inflection" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit4/section4-3/">
+          4.3 Points of Inflection
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-3/notes/" title="4.3 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-3/notes/">
+        4.3 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-3/practice/" title="4.3 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-3/practice/">
+        4.3 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit4/section4-4/" title="4.4 Concavity" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit4/section4-4/">
+          4.4 Concavity
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-4/notes/" title="4.4 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-4/notes/">
+        4.4 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-4/practice/" title="4.4 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-4/practice/">
+        4.4 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit4/section4-5/" title="4.5 Curve Sketching" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit4/section4-5/">
+          4.5 Curve Sketching
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-5/notes/" title="4.5 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-5/notes/">
+        4.5 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-5/practice/" title="4.5 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-5/practice/">
+        4.5 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit4/section4-6/" title="4.6  Reconstructing Graphs" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit4/section4-6/">
+          4.6  Reconstructing Graphs
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-6/notes/" title="4.6 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-6/notes/">
+        4.6 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-6/practice/" title="4.6 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-6/practice/">
+        4.6 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit4/section4-7/" title="4.7 Building Functions" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit4/section4-7/">
+          4.7 Building Functions
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-7/notes/" title="4.7 Examples" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-7/notes/">
+        4.7 Examples
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit4/section4-7/practice/" title="4.7 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit4/section4-7/practice/">
+        4.7 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit5/" title="Unit 5: Applications of f&#39;(x)" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit5/">
+          Unit 5: Applications of f&#39;(x)
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit5/section5-1/" title="Section 5.1" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit5/section5-1/">
+          Section 5.1
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-1/notes/" title="5.1 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-1/notes/">
+        5.1 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-1/practice/" title="5.1 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-1/practice/">
+        5.1 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit5/section5-2/" title="Section 5.2" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit5/section5-2/">
+          Section 5.2
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-2/notes/" title="5.2 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-2/notes/">
+        5.2 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-2/practice/" title="5.2 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-2/practice/">
+        5.2 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit5/section5-3/" title="Section 5.3" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit5/section5-3/">
+          Section 5.3
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-3/notes/" title="5.3 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-3/notes/">
+        5.3 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-3/practice/" title="5.3 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-3/practice/">
+        5.3 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit5/section5-4/" title="Section 5.4" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit5/section5-4/">
+          Section 5.4
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-4/notes/" title="5.4 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-4/notes/">
+        5.4 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-4/practice/" title="5.4 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-4/practice/">
+        5.4 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit5/section5-5/" title="Section 5.5" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit5/section5-5/">
+          Section 5.5
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-5/notes/" title="5.5 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-5/notes/">
+        5.5 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-5/practice/" title="5.5 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-5/practice/">
+        5.5 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit5/section5-6/" title="Section 5.6" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit5/section5-6/">
+          Section 5.6
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-6/notes/" title="5.6 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-6/notes/">
+        5.6 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-6/practice/" title="5.6 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-6/practice/">
+        5.6 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit5/section5-7/" title="Section 5.7" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit5/section5-7/">
+          Section 5.7
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-7/notes/" title="5.7 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-7/notes/">
+        5.7 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit5/section5-7/practice/" title="5.7 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit5/section5-7/practice/">
+        5.7 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit6/" title="Unit 6: Geometric Vectors" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit6/">
+          Unit 6: Geometric Vectors
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit6/section6-1/" title="Section 6.1" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit6/section6-1/">
+          Section 6.1
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-1/notes/" title="6.1 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-1/notes/">
+        6.1 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-1/practice/" title="6.1 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-1/practice/">
+        6.1 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit6/section6-2/" title="Section 6.2" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit6/section6-2/">
+          Section 6.2
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-2/notes/" title="6.2 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-2/notes/">
+        6.2 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-2/practice/" title="6.2 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-2/practice/">
+        6.2 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit6/section6-3/" title="Section 6.3" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit6/section6-3/">
+          Section 6.3
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-3/notes/" title="6.3 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-3/notes/">
+        6.3 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-3/practice/" title="6.3 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-3/practice/">
+        6.3 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit6/section6-4/" title="Section 6.4" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit6/section6-4/">
+          Section 6.4
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-4/notes/" title="6.4 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-4/notes/">
+        6.4 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-4/practice/" title="6.4 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-4/practice/">
+        6.4 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit6/section6-5/" title="Section 6.5" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit6/section6-5/">
+          Section 6.5
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-5/notes/" title="6.5 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-5/notes/">
+        6.5 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-5/practice/" title="6.5 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-5/practice/">
+        6.5 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit6/section6-6/" title="Section 6.6" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit6/section6-6/">
+          Section 6.6
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-6/notes/" title="6.6 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-6/notes/">
+        6.6 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-6/practice/" title="6.6 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-6/practice/">
+        6.6 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit6/section6-7/" title="Section 6.7" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit6/section6-7/">
+          Section 6.7
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-7/notes/" title="6.7 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-7/notes/">
+        6.7 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit6/section6-7/practice/" title="6.7 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit6/section6-7/practice/">
+        6.7 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit7/" title="Unit 7: Cartesian Vectors" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit7/">
+          Unit 7: Cartesian Vectors
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit7/section7-1/" title="Section 7.1" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit7/section7-1/">
+          Section 7.1
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-1/notes/" title="7.1 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-1/notes/">
+        7.1 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-1/practice/" title="7.1 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-1/practice/">
+        7.1 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit7/section7-2/" title="Section 7.2" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit7/section7-2/">
+          Section 7.2
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-2/notes/" title="7.2 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-2/notes/">
+        7.2 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-2/practice/" title="7.2 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-2/practice/">
+        7.2 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit7/section7-3/" title="Section 7.3" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit7/section7-3/">
+          Section 7.3
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-3/notes/" title="7.3 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-3/notes/">
+        7.3 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-3/practice/" title="7.3 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-3/practice/">
+        7.3 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit7/section7-4/" title="Section 7.4" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit7/section7-4/">
+          Section 7.4
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-4/notes/" title="7.4 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-4/notes/">
+        7.4 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-4/practice/" title="7.4 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-4/practice/">
+        7.4 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit7/section7-5/" title="Section 7.5" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit7/section7-5/">
+          Section 7.5
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-5/notes/" title="7.5 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-5/notes/">
+        7.5 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-5/practice/" title="7.5 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-5/practice/">
+        7.5 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit7/section7-6/" title="Section 7.6" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit7/section7-6/">
+          Section 7.6
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-6/notes/" title="7.6 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-6/notes/">
+        7.6 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-6/practice/" title="7.6 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-6/practice/">
+        7.6 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit7/section7-7/" title="Section 7.7" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit7/section7-7/">
+          Section 7.7
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-7/notes/" title="7.7 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-7/notes/">
+        7.7 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit7/section7-7/practice/" title="7.7 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit7/section7-7/practice/">
+        7.7 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit8/" title="Unit 8: Lines and Planes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit8/">
+          Unit 8: Lines and Planes
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit8/section8-1/" title="Section 8.1" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit8/section8-1/">
+          Section 8.1
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-1/notes/" title="8.1 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-1/notes/">
+        8.1 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-1/practice/" title="8.1 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-1/practice/">
+        8.1 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit8/section8-2/" title="Section 8.2" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit8/section8-2/">
+          Section 8.2
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-2/notes/" title="8.2 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-2/notes/">
+        8.2 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-2/practice/" title="8.2 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-2/practice/">
+        8.2 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit8/section8-3/" title="Section 8.3" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit8/section8-3/">
+          Section 8.3
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-3/notes/" title="8.3 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-3/notes/">
+        8.3 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-3/practice/" title="8.3 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-3/practice/">
+        8.3 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit8/section8-4/" title="Section 8.4" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit8/section8-4/">
+          Section 8.4
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-4/notes/" title="8.4 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-4/notes/">
+        8.4 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-4/practice/" title="8.4 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-4/practice/">
+        8.4 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit8/section8-5/" title="Section 8.5" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit8/section8-5/">
+          Section 8.5
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-5/notes/" title="8.5 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-5/notes/">
+        8.5 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-5/practice/" title="8.5 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-5/practice/">
+        8.5 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit8/section8-6/" title="Section 8.6" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit8/section8-6/">
+          Section 8.6
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-6/notes/" title="8.6 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-6/notes/">
+        8.6 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-6/practice/" title="8.6 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-6/practice/">
+        8.6 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/MrKnappsClass/unit8/section8-7/" title="Section 8.7" class="dd-item
+        
+        
+        
+        ">
+      <a href="/MrKnappsClass/unit8/section8-7/">
+          Section 8.7
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-7/notes/" title="8.7 Notes" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-7/notes/">
+        8.7 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/MrKnappsClass/unit8/section8-7/practice/" title="8.7 Practice" class="dd-item ">
+        <a href="/MrKnappsClass/unit8/section8-7/practice/">
+        8.7 Practice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>
+    Visit the <a href="https://www.desmos.com/calculator" target="_blank">Desmos Graphing Calculator</a>
+  </p>
+  
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                  
+                    
+                      
+                      
+                      
+                    
+                  
+                  
+                  <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                      <span id="sidebar-toggle-span">
+                          <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                            <i class="fas fa-bars"></i>
+                          </a>
+                      </span>
+                    
+                    <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                    
+                    <span class="links">
+                   
+                   
+                     4.2 Examples
+                   
+                    </span>
+                  </div>
+                  
+                      <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#example-1-polynomial-function">Example 1: Polynomial Function</a></li>
+        <li><a href="#example-2-rational-function">Example 2: Rational Function</a></li>
+        <li><a href="#example-3-trigonometric-function">Example 3: Trigonometric Function</a></li>
+        <li><a href="#example-4-exponential-function">Example 4: Exponential Function</a></li>
+        <li><a href="#learning-objectives">Learning Objectives</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                  
+                </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              4.2 Examples
+            </h1>
+          
+
+        
+
+    
+     <section>
+        
+
+        <div class="container">
+            
+            <main>
+                <p>Intervals of Increasing and Decreasing Functions
+In this section, we will work through examples that demonstrate how to determine the intervals where a function is increasing or decreasing. Using the <strong>first derivative test</strong>, we analyze the critical points and the sign of the derivative to classify the behavior of the function over its domain. By the end of this section, students will:</p>
+<ul>
+<li>Understand how to compute the derivative of a function.</li>
+<li>Identify critical points and use them to determine intervals of increase and decrease.</li>
+<li>Apply the first derivative test effectively to classify the behavior of the function.</li>
+</ul>
+<hr>
+<h3 id="example-1-polynomial-function">Example 1: Polynomial Function</h3>
+<p>Determine the intervals where the function \( f(x) = x^4 - 8x^3 + 18x^2 - 10 \) is increasing or decreasing.</p>
+<h4 id="solution">Solution:</h4>
+\[ f(x) = x^4 - 8x^3 + 18x^2 - 10 \]\[ f'(x) = 4x^3 - 24x^2 + 36x \]\[ 4x^3 - 24x^2 + 36x = 0 \implies 4x(x^2 - 6x + 9) = 0 \implies 4x(x - 3)^2 = 0 \]<p><br>
+Critical points: \( x = 0 \) and \( x = 3 \).</p>
+<p>Use the first derivative test to determine the sign of \( f'(x) \) around the critical points:</p>
+<ul>
+<li>For \( x < 0 \), choose \( x = -1 \):<br>
+\[ f'(-1) = 4(-1)((-1) - 3)^2 = 4(-1)(16) = -64 < 0 \] (\( f(x) \) is decreasing).</li>
+<li>For \( 0 < x < 3 \), choose \( x = 1 \):<br>
+\[ f'(1) = 4(1)((1) - 3)^2 = 4(1)(4) = 16 > 0 \] (\( f(x) \) is increasing).</li>
+<li>For \( x > 3 \), choose \( x = 4 \):<br>
+\[ f'(4) = 4(4)((4) - 3)^2 = 4(4)(1) = 16 > 0 \] (\( f(x) \) is increasing).</li>
+</ul>
+<p>Thus, the function is:</p>
+<ul>
+<li>Increasing on \( (0, \infty) \).</li>
+<li>Decreasing on \( (-\infty, 0) \).</li>
+</ul>
+\[ \boxed{\text{Increasing: } (0, \infty), \text{ Decreasing: } (-\infty, 0)} \]<hr>
+<h3 id="example-2-rational-function">Example 2: Rational Function</h3>
+<p>Determine the intervals where the function \( f(x) = \frac{x^2}{x^2 - 4} \) is increasing or decreasing.</p>
+<h4 id="solution-1">Solution:</h4>
+\[ f(x) = \frac{x^2}{x^2 - 4} \]\[ f'(x) = \frac{(x^2 - 4)(2x) - x^2(2x)}{(x^2 - 4)^2} = \frac{-8x}{(x^2 - 4)^2} \]\[ -8x = 0 \implies x = 0 \]<p><br>
+Critical point: \( x = 0 \).</p>
+<p>Use the first derivative test to determine the sign of \( f'(x) \) around the critical points:</p>
+<ul>
+<li>For \( x < 0 \), choose \( x = -1 \):<br>
+\[ f'(-1) = \frac{-8(-1)}{((-1)^2 - 4)^2} = \frac{8}{9} > 0 \] (\( f(x) \) is increasing).</li>
+<li>For \( x > 0 \), choose \( x = 1 \):<br>
+\[ f'(1) = \frac{-8(1)}{((1)^2 - 4)^2} = \frac{-8}{9} < 0 \] (\( f(x) \) is decreasing).</li>
+</ul>
+<p>Thus, the function is:</p>
+<ul>
+<li>Increasing on \( (-\infty, 0) \).</li>
+<li>Decreasing on \( (0, \infty) \).</li>
+</ul>
+\[ \boxed{\text{Increasing: } (-\infty, 0), \text{ Decreasing: } (0, \infty)} \]<hr>
+<h3 id="example-3-trigonometric-function">Example 3: Trigonometric Function</h3>
+<p>Determine the intervals where the function \( f(x) = \cos(x) \) is increasing or decreasing on the interval \( [0, 2\pi] \).</p>
+<h4 id="solution-2">Solution:</h4>
+\[ f(x) = \cos(x) \]\[ f'(x) = -\sin(x) \]\[ -\sin(x) = 0 \implies x = 0, \pi, 2\pi \]<p><br>
+Critical points: \( x = 0, \pi, 2\pi \).</p>
+<p>Use the first derivative test to determine the sign of \( f'(x) \) around the critical points:</p>
+<ul>
+<li>For \( 0 < x < \pi \), choose \( x = \frac{\pi}{2} \):<br>
+\[ f'\left(\frac{\pi}{2}\right) = -\sin\left(\frac{\pi}{2}\right) = -1 < 0 \] (\( f(x) \) is decreasing).</li>
+<li>For \( \pi < x < 2\pi \), choose \( x = \frac{3\pi}{2} \):<br>
+\[ f'\left(\frac{3\pi}{2}\right) = -\sin\left(\frac{3\pi}{2}\right) = 1 > 0 \] (\( f(x) \) is increasing).</li>
+</ul>
+<p>Thus, the function is:</p>
+<ul>
+<li>Increasing on \( (\pi, 2\pi) \).</li>
+<li>Decreasing on \( (0, \pi) \).</li>
+</ul>
+\[ \boxed{\text{Increasing: } (\pi, 2\pi), \text{ Decreasing: } (0, \pi)} \]<hr>
+<h3 id="example-4-exponential-function">Example 4: Exponential Function</h3>
+<p>Determine the intervals where the function \( f(x) = e^{x^2 - 2x} \) is increasing or decreasing.</p>
+<h4 id="solution-3">Solution:</h4>
+\[ f(x) = e^{x^2 - 2x} \]\[ f'(x) = e^{x^2 - 2x} \cdot (2x - 2) = (2x - 2)e^{x^2 - 2x} \]\[ (2x - 2)e^{x^2 - 2x} = 0 \implies 2x - 2 = 0 \implies x = 1 \]<p><br>
+Critical point: \( x = 1 \).</p>
+<p>Use the first derivative test to determine the sign of \( f'(x) \) around the critical point:</p>
+<ul>
+<li>For \( x < 1 \), choose \( x = 0 \):<br>
+\[ f'(0) = (2(0) - 2)e^{(0)^2 - 2(0)} = -2e^0 = -2 < 0 \] (\( f(x) \) is decreasing).</li>
+<li>For \( x > 1 \), choose \( x = 2 \):<br>
+\[ f'(2) = (2(2) - 2)e^{(2)^2 - 2(2)} = (4 - 2)e^{4 - 4} = 2e^0 = 2 > 0 \] (\( f(x) \) is increasing).</li>
+</ul>
+<p>Thus, the function is:</p>
+<ul>
+<li>Increasing on \( (1, \infty) \).</li>
+<li>Decreasing on \( (-\infty, 1) \).</li>
+</ul>
+\[ \boxed{\text{Increasing: } (1, \infty), \text{ Decreasing: } (-\infty, 1)} \]<hr>
+<h3 id="learning-objectives">Learning Objectives</h3>
+<p>By the end of this section, students will:</p>
+<ul>
+<li>Understand how to use the first derivative test to determine intervals of increase and decrease.</li>
+<li>Apply the method to polynomial, rational, trigonometric, and exponential functions.</li>
+<li>Solve problems involving critical points and classify intervals effectively.</li>
+</ul>
+
+            </main>
+
+            
+            
+        </div>
+    </section>
+
+            
+        </div>
+        <footer style="background-color: #272525; padding: 10px; text-align: center; border-top: 2px solid #f1f1f1; margin-top: 20px;">
+    <p>Canadian College Italy | Calculus and Vectors (MCV4U)</p>
+    <p>&copy; 2025 All rights reserved. </p>
+</footer>
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/MrKnappsClass/unit4/section4-2/" title="4.2 Increasing and Decreasing"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/MrKnappsClass/unit4/section4-2/practice/" title="4.2 Practice" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/MrKnappsClass/js/clipboard.min.js?1743517650"></script>
+    <script src="/MrKnappsClass/js/perfect-scrollbar.min.js?1743517650"></script>
+    <script src="/MrKnappsClass/js/perfect-scrollbar.jquery.min.js?1743517650"></script>
+    <script src="/MrKnappsClass/js/jquery.sticky.js?1743517650"></script>
+    <script src="/MrKnappsClass/js/featherlight.min.js?1743517650"></script>
+    <script src="/MrKnappsClass/js/highlight.pack.js?1743517650"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/MrKnappsClass/js/modernizr.custom-3.6.0.js?1743517650"></script>
+    <script src="/MrKnappsClass/js/learn.js?1743517650"></script>
+    <script src="/MrKnappsClass/js/hugo-learn.js?1743517650"></script>
+    
+        
+            <script src="/MrKnappsClass/mermaid/mermaid.js?1743517650"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var toggleButton = document.getElementById("sidebar-toggle");
+            var sidebar = document.getElementById("sidebar");
+            var topBar = document.getElementById("top-bar");
+
+            toggleButton.addEventListener("click", function(e) {
+                sidebar.classList.toggle("hidden");
+                topBar.classList.toggle("sidebar-hidden");
+            });
+        });
+    </Script>
+    
+    
+
+  </body>
+</html>
+
+</body>
+</html>

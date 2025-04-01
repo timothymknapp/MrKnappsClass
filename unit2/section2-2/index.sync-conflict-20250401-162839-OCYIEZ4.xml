@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2.2 Sum and Difference Rules on Calculus Hub</title>
+    <link>http://localhost:40775/MrKnappsClass/unit2/section2-2/</link>
+    <description>Recent content in 2.2 Sum and Difference Rules on Calculus Hub</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:40775/MrKnappsClass/unit2/section2-2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.2 Examples</title>
+      <link>http://localhost:40775/MrKnappsClass/unit2/section2-2/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:40775/MrKnappsClass/unit2/section2-2/notes/</guid>
+      <description>&lt;h3 id=&#34;22-sum-and-difference-rules&#34;&gt;2.2 Sum and Difference Rules&lt;/h3&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;Differentiate the function \( f(x) = x^4 + 2x^3 - 5x + 7 \).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Using the Sum Rule, differentiate each term:&lt;/p&gt;&#xA;\[&#xA;f&#39;(x) = \frac{d}{dx}[x^4] + \frac{d}{dx}[2x^3] - \frac{d}{dx}[5x] + \frac{d}{dx}[7]&#xA;\]\[&#xA;f&#39;(x) = 4x^3 + 6x^2 - 5&#xA;\]&lt;p&gt;Thus, the derivative of \( f(x) = x^4 + 2x^3 - 5x + 7 \) is:&lt;/p&gt;&#xA;\[&#xA;f&#39;(x) = 4x^3 + 6x^2 - 5&#xA;\]&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex2&#34;&gt;Ex2.&lt;/h4&gt;&#xA;&lt;p&gt;Differentiate the function \( f(x) = 3x^5 - 2x^4 + x^3 - 6 \).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.2 Practice</title>
+      <link>http://localhost:40775/MrKnappsClass/unit2/section2-2/practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:40775/MrKnappsClass/unit2/section2-2/practice/</guid>
+      <description>&lt;h3 id=&#34;22-sum-and-difference-rules&#34;&gt;2.2 Sum and Difference Rules&lt;/h3&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;Differentiate the function \( f(x) = x^3 + 5x^2 - 7x + 3 \).&lt;/p&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;p&gt;Using the Sum Rule, differentiate each term individually:&lt;/p&gt;&#xA;\[&#xA;f&#39;(x) = \frac{d}{dx}[x^3] + \frac{d}{dx}[5x^2] - \frac{d}{dx}[7x] + \frac{d}{dx}[3]&#xA;\]\[&#xA;f&#39;(x) = 3x^2 + 10x - 7&#xA;\]&lt;p&gt;Thus, the derivative of \( f(x) = x^3 + 5x^2 - 7x + 3 \) is:&lt;/p&gt;&#xA;\[&#xA;f&#39;(x) = 3x^2 + 10x - 7&#xA;\]&lt;/details&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex2&#34;&gt;Ex2.&lt;/h4&gt;&#xA;&lt;p&gt;Differentiate the function \( f(x) = 4x^2 - 9x + 6 \).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

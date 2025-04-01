@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.4 Concavity on Calculus Hub</title>
+    <link>http://localhost:40775/MrKnappsClass/unit4/section4-4/</link>
+    <description>Recent content in 4.4 Concavity on Calculus Hub</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:40775/MrKnappsClass/unit4/section4-4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.4 Examples</title>
+      <link>http://localhost:40775/MrKnappsClass/unit4/section4-4/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:40775/MrKnappsClass/unit4/section4-4/notes/</guid>
+      <description>&lt;p&gt;Intervals of Concavity&#xA;In this section, we will work through examples that demonstrate how to determine the intervals where a function is concave up or concave down using the second derivative test. These examples will include polynomial, rational, trigonometric, and exponential functions. By the end of this section, students will:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Understand how to compute the second derivative of a function.&lt;/li&gt;&#xA;&lt;li&gt;Use the second derivative test to classify intervals of concavity.&lt;/li&gt;&#xA;&lt;li&gt;Solve problems involving various types of functions.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;example-1-polynomial-function&#34;&gt;Example 1: Polynomial Function&lt;/h3&gt;&#xA;&lt;p&gt;Determine the intervals where the function \( f(x) = x^3 - 6x^2 + 9x + 2 \) is concave up or concave down.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4.4 Practice</title>
+      <link>http://localhost:40775/MrKnappsClass/unit4/section4-4/practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:40775/MrKnappsClass/unit4/section4-4/practice/</guid>
+      <description>&lt;p&gt;Ex1.&#xA;Determine the intervals where the function \( f(x) = x^3 - 4x^2 + 5x - 1 \) is concave up or concave down.&lt;/p&gt;&#xA;&lt;details&gt;&#xA;&lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;&lt;/summary&gt;&#xA;Write the given function:  &#xA;\[ f(x) = x^3 - 4x^2 + 5x - 1 \]  &#xA;\[ f&#39;(x) = 3x^2 - 8x + 5 \]\[ f&#39;&#39;(x) = 6x - 8 \]\[ 6x - 8 = 0 \implies x = \frac{4}{3} \]&lt;p&gt;Check the concavity around \( x = \frac{4}{3} \):&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
