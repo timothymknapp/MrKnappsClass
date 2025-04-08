@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1.5 Continuity on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-5/</link><description>Recent content in 1.5 Continuity on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit1/section1-5/index.xml" rel="self" type="application/rss+xml"/><item><title>1.5 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-5/notes/</guid><description>&lt;h3 id="example-1-jump-discontinuity">Example 1: Jump Discontinuity&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1.5 Continuity on Calculus Hub</title><link>http://localhost:1313/unit1/section1-5/</link><description>Recent content in 1.5 Continuity on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/unit1/section1-5/index.xml" rel="self" type="application/rss+xml"/><item><title>1.5 Examples</title><link>http://localhost:1313/unit1/section1-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-5/notes/</guid><description>&lt;h3 id="example-1-jump-discontinuity">Example 1: Jump Discontinuity&lt;/h3>
 &lt;p>Determine if the following function is continuous at \( x = 2 \):&lt;/p>
 \[
 f(x) = \begin{cases} 
@@ -15,7 +15,7 @@ x^2 - 3 &amp; \text{if } x > 2.
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Evaluate the left-hand limit:&lt;/strong>&lt;/p></description></item><item><title>1.5 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-5/practice/</guid><description>&lt;h3 id="15-continuity">1.5 Continuity&lt;/h3>
+&lt;p>&lt;strong>Evaluate the left-hand limit:&lt;/strong>&lt;/p></description></item><item><title>1.5 Practice</title><link>http://localhost:1313/unit1/section1-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit1/section1-5/practice/</guid><description>&lt;h3 id="15-continuity">1.5 Continuity&lt;/h3>
 &lt;h4 id="ex1">Ex1.&lt;/h4>
 &lt;p>Determine whether the function \( f(x) = \frac{x^2 - 4}{x - 2} \) is continuous at \( x = 2 \).&lt;/p>
 &lt;details>

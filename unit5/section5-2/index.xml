@@ -1,1 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Section 5.2 on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-2/</link><description>Recent content in Section 5.2 on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit5/section5-2/index.xml" rel="self" type="application/rss+xml"/><item><title>5.2 Notes</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-2/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.2 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-2/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>5.2: Related Rates on Calculus Hub</title><link>http://localhost:1313/unit5/section5-2/</link><description>Recent content in 5.2: Related Rates on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/unit5/section5-2/index.xml" rel="self" type="application/rss+xml"/><item><title>5.2 Examples</title><link>http://localhost:1313/unit5/section5-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-2/notes/</guid><description>&lt;h2 id="example-question-related-rates---expanding-balloon">Example Question: Related Rates - Expanding Balloon&lt;/h2>
+&lt;h4 id="problem-statement">Problem Statement:&lt;/h4>
+&lt;p>A spherical balloon is being inflated at a constant rate of $ 8 \, \text{cm}^3/\text{s} $. At what rate is the radius of the balloon increasing when the radius is $ 6 \, \text{cm} $?&lt;/p>
+&lt;hr>
+&lt;h4 id="solution">Solution:&lt;/h4>
+&lt;h5 id="step-1-understand-the-problem-and-identify-known-quantities">Step 1: Understand the problem and identify known quantities.&lt;/h5>
+&lt;ul>
+&lt;li>The volume of a sphere is given by the formula:
+$$
+ V = \frac{4}{3} \pi r^3,
+ $$
+where $ V $ is the volume and $ r $ is the radius.&lt;/li>
+&lt;li>We are given:
+&lt;ul>
+&lt;li>The rate of change of volume: $ \frac{dV}{dt} = 8 \, \text{cm}^3/\text{s} $.&lt;/li>
+&lt;li>The radius at the moment of interest: $ r = 6 \, \text{cm} $.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>We need to find:
+&lt;ul>
+&lt;li>The rate of change of the radius: $ \frac{dr}{dt} $.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="step-2-differentiate-the-volume-formula-with-respect-to-time">Step 2: Differentiate the volume formula with respect to time.&lt;/h5>
+$$
+\frac{dV}{dt} = 4 \pi r^2 \frac{dr}{dt}.
+$$&lt;h5 id="step-3-solve-for--fracdrdt-">Step 3: Solve for $ \frac{dr}{dt} $.&lt;/h5>
+$$
+\frac{dr}{dt} = \frac{\frac{dV}{dt}}{4 \pi r^2}.
+$$&lt;h5 id="step-4-substitute-the-known-values">Step 4: Substitute the known values.&lt;/h5>
+$$
+\frac{dr}{dt} = \frac{8}{4 \pi (6)^2}.
+$$$$
+\frac{dr}{dt} = \frac{8}{4 \pi (36)} = \frac{8}{144 \pi} = \frac{1}{18 \pi} \, \text{cm/s}.
+$$&lt;h5 id="step-5-interpret-the-result">Step 5: Interpret the result.&lt;/h5>
+$$
+\frac{dr}{dt} = \frac{1}{18 \pi} \, \text{cm/s}.
+$$$$
+\frac{dr}{dt} \approx 0.0177 \, \text{cm/s}.
+$$&lt;hr>
+&lt;h3 id="final-answer">Final Answer:&lt;/h3>
+$$
+\boxed{\frac{1}{18 \pi} \, \text{cm/s} \, \text{(or approximately } 0.0177 \, \text{cm/s)}}.
+$$&lt;hr>
+&lt;h1 id="example-question-2-related-rates---sliding-ladder">Example Question 2: Related Rates - Sliding Ladder&lt;/h1>
+&lt;h4 id="problem-statement-1">Problem Statement:&lt;/h4>
+&lt;p>A 10-foot ladder is leaning against a vertical wall. The bottom of the ladder is being pulled away from the wall at a constant rate of $ 2 \, \text{ft/s} $. How fast is the top of the ladder sliding down the wall when the bottom of the ladder is $ 6 \, \text{ft} $ away from the wall?&lt;/p></description></item><item><title>5.2 Practice</title><link>http://localhost:1313/unit5/section5-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-2/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>

@@ -1,1 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Section 5.1 on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/</link><description>Recent content in Section 5.1 on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/index.xml" rel="self" type="application/rss+xml"/><item><title>5.1 Notes</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>5.1 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>5.1: Position, Velocity, and Acceleration on Calculus Hub</title><link>http://localhost:1313/unit5/section5-1/</link><description>Recent content in 5.1: Position, Velocity, and Acceleration on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/unit5/section5-1/index.xml" rel="self" type="application/rss+xml"/><item><title>5.1 Examples</title><link>http://localhost:1313/unit5/section5-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-1/notes/</guid><description>&lt;h2 id="example-question-analyzing-motion-using-derivatives">Example Question: Analyzing Motion Using Derivatives&lt;/h2>
+&lt;h4 id="problem-statement">Problem Statement:&lt;/h4>
+$$
+s(t) = t^3 - 6t^2 + 9t + 4 \quad \text{(in meters)},
+$$&lt;p>
+where $ t $ is the time in seconds ($ t \geq 0 $).&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Find the velocity and acceleration at $ t = 2 $ seconds.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>At what time(s) is the object at a position of $ s(t) = 10 $ meters?&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>At what time(s) is the velocity of the object equal to $ v(t) = 0 $ m/s?&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>At what time(s) is the acceleration of the object equal to $ a(t) = 6 $ m/s²?&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h4 id="solution">Solution:&lt;/h4>
+&lt;h5 id="step-1-recall-the-relationships-between-position-velocity-and-acceleration">Step 1: Recall the relationships between position, velocity, and acceleration.&lt;/h5>
+&lt;ul>
+&lt;li>Velocity is the first derivative of position:&lt;br>
+$$
+ v(t) = \frac{ds}{dt}.
+ $$&lt;/li>
+&lt;li>Acceleration is the second derivative of position (or the first derivative of velocity):&lt;br>
+$$
+ a(t) = \frac{dv}{dt} = \frac{d^2s}{dt^2}.
+ $$&lt;/li>
+&lt;/ul>
+&lt;h5 id="step-2-compute-the-derivatives">Step 2: Compute the derivatives.&lt;/h5>
+&lt;p>Given $ s(t) = t^3 - 6t^2 + 9t + 4 $:&lt;/p></description></item><item><title>Position, Velocity, and Acceleration Practice</title><link>http://localhost:1313/unit5/section5-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/unit5/section5-1/practice/</guid><description>&lt;hr>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>A particle moves along a straight line with its position at time $ t $ given by the function:&lt;/p>
+\[
+ s(t) = t^3 - 6t^2 + 9t + 2
+\]&lt;p>Find:&lt;/p>
+&lt;ul>
+&lt;li>The velocity function $ v(t) $.&lt;/li>
+&lt;li>The acceleration function $ a(t) $.&lt;/li>
+&lt;li>The time(s) when the particle is at rest.&lt;/li>
+&lt;/ul>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>Compute the velocity function:&lt;/li>
+&lt;/ol>
+\[
+ v(t) = s'(t) = 3t^2 - 12t + 9
+\]&lt;ol start="2">
+&lt;li>Compute the acceleration function:&lt;/li>
+&lt;/ol>
+\[
+ a(t) = v'(t) = 6t - 12
+\]&lt;ol start="3">
+&lt;li>Find when the particle is at rest by solving $ v(t) = 0 $:&lt;/li>
+&lt;/ol>
+\[
+ 3t^2 - 12t + 9 = 0
+\]&lt;p>Factor:&lt;/p></description></item></channel></rss>
