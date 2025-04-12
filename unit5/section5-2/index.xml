@@ -45,4 +45,44 @@ $$
 $$&lt;hr>
 &lt;h1 id="example-question-2-related-rates---sliding-ladder">Example Question 2: Related Rates - Sliding Ladder&lt;/h1>
 &lt;h4 id="problem-statement-1">Problem Statement:&lt;/h4>
-&lt;p>A 10-foot ladder is leaning against a vertical wall. The bottom of the ladder is being pulled away from the wall at a constant rate of $ 2 \, \text{ft/s} $. How fast is the top of the ladder sliding down the wall when the bottom of the ladder is $ 6 \, \text{ft} $ away from the wall?&lt;/p></description></item><item><title>5.2 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-2/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+&lt;p>A 10-foot ladder is leaning against a vertical wall. The bottom of the ladder is being pulled away from the wall at a constant rate of $ 2 \, \text{ft/s} $. How fast is the top of the ladder sliding down the wall when the bottom of the ladder is $ 6 \, \text{ft} $ away from the wall?&lt;/p></description></item><item><title>5.2 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-2/practice/</guid><description>&lt;hr>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>A conical tank with a radius of $ 4 \, \text{m} $ and a height of $ 10 \, \text{m} $ is being filled with water at a rate of $ 2 \, \text{m}^3/\text{min} $. How fast is the water level rising when the water is $ 5 \, \text{m} $ deep?&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+$$
+ \frac{r}{h} = \frac{4}{10} = \frac{2}{5}.
+ $$$$
+ r = \frac{2}{5}h.
+ $$&lt;/li>
+&lt;li>
+$$
+ V = \frac{1}{3} \pi r^2 h.
+ $$$$
+ V = \frac{1}{3} \pi \left(\frac{2}{5}h\right)^2 h = \frac{1}{3} \pi \cdot \frac{4}{25} h^3 = \frac{4}{75} \pi h^3.
+ $$&lt;/li>
+&lt;li>
+$$
+ \frac{dV}{dt} = \frac{4}{75} \pi \cdot 3h^2 \frac{dh}{dt}.
+ $$$$
+ \frac{dV}{dt} = \frac{4}{25} \pi h^2 \frac{dh}{dt}.
+ $$&lt;/li>
+&lt;li>
+$$
+ \frac{dh}{dt} = \frac{\frac{dV}{dt}}{\frac{4}{25} \pi h^2}.
+ $$&lt;/li>
+&lt;li>
+$$
+ \frac{dh}{dt} = \frac{2}{\frac{4}{25} \pi (5)^2} = \frac{2}{\frac{4}{25} \pi (25)} = \frac{2}{4 \pi} = \frac{1}{2 \pi} \, \text{m/min}.
+ $$&lt;/li>
+&lt;/ol>
+$$
+\boxed{\frac{1}{2 \pi} \, \text{m/min} \, \text{(or approximately } 0.159 \, \text{m/min)}}.
+$$&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+&lt;p>A spherical balloon is being inflated at a rate of $ 8 \, \text{cm}^3/\text{s} $. How fast is the radius increasing when the radius is $ 6 \, \text{cm} $?&lt;/p></description></item></channel></rss>
