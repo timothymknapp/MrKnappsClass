@@ -38,4 +38,37 @@ $$&lt;h5 id="step-5-verify-that-this-value-of--x--gives-a-maximum">Step 5: Verif
 $$
 \frac{d^2A}{dx^2} = -4.
 $$&lt;p>
-Since $ \frac{d^2A}{dx^2} &lt; 0 $, the function $ A $ has a maximum at $ x = 25 $.&lt;/p></description></item><item><title>5.3 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-3/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+Since $ \frac{d^2A}{dx^2} &lt; 0 $, the function $ A $ has a maximum at $ x = 25 $.&lt;/p></description></item><item><title>5.3 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-3/practice/</guid><description>&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>A farmer wants to build a rectangular pen using &lt;strong>100 meters of fencing&lt;/strong>, and one side of the pen will be along an existing &lt;strong>barn wall&lt;/strong> (so it doesn’t need fencing). What dimensions maximize the area of the pen?&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+$$
+ x + 2y = 100.
+ $$&lt;/li>
+&lt;li>
+$$
+ x = 100 - 2y.
+ $$&lt;/li>
+&lt;li>
+$$
+ A = x \cdot y = (100 - 2y) \cdot y = 100y - 2y^2.
+ $$&lt;/li>
+&lt;li>
+$$
+ \frac{dA}{dy} = 100 - 4y.
+ $$$$
+ 100 - 4y = 0 \Rightarrow y = 25.
+ $$$$
+ x = 100 - 2(25) = 50.
+ $$&lt;/li>
+&lt;/ol>
+$$
+\boxed{50 \, \text{m} \times 25 \, \text{m}}.
+$$&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+&lt;p>A box with a &lt;strong>square base and open top&lt;/strong> must have a volume of &lt;strong>32,000 cm³&lt;/strong>. What dimensions minimize the surface area?&lt;/p></description></item></channel></rss>
