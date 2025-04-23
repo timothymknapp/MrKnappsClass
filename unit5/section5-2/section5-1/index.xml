@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5.1: Position, Velocity, and Acceleration on Calculus Hub</title>
+    <link>https://your-site.com/unit5/section5-1/</link>
+    <description>Recent content in 5.1: Position, Velocity, and Acceleration on Calculus Hub</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://your-site.com/unit5/section5-1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5.1 Examples</title>
+      <link>https://your-site.com/unit5/section5-1/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://your-site.com/unit5/section5-1/notes/</guid>
+      <description>&lt;h2 id=&#34;example-question-analyzing-motion-using-derivatives&#34;&gt;Example Question: Analyzing Motion Using Derivatives&lt;/h2&gt;&#xA;&lt;h4 id=&#34;problem-statement&#34;&gt;Problem Statement:&lt;/h4&gt;&#xA;$$&#xA;s(t) = t^3 - 6t^2 + 9t + 4 \quad \text{(in meters)},&#xA;$$&lt;p&gt;&#xA;where $ t $ is the time in seconds ($ t \geq 0 $).&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Find the velocity and acceleration at $ t = 2 $ seconds.&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;At what time(s) is the object at a position of $ s(t) = 10 $ meters?&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;At what time(s) is the velocity of the object equal to $ v(t) = 0 $ m/s?&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;At what time(s) is the acceleration of the object equal to $ a(t) = 6 $ m/s²?&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;solution&#34;&gt;Solution:&lt;/h4&gt;&#xA;&lt;h5 id=&#34;step-1-recall-the-relationships-between-position-velocity-and-acceleration&#34;&gt;Step 1: Recall the relationships between position, velocity, and acceleration.&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Velocity is the first derivative of position:&lt;br&gt;&#xA;$$&#xA;  v(t) = \frac{ds}{dt}.&#xA;  $$&lt;/li&gt;&#xA;&lt;li&gt;Acceleration is the second derivative of position (or the first derivative of velocity):&lt;br&gt;&#xA;$$&#xA;  a(t) = \frac{dv}{dt} = \frac{d^2s}{dt^2}.&#xA;  $$&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h5 id=&#34;step-2-compute-the-derivatives&#34;&gt;Step 2: Compute the derivatives.&lt;/h5&gt;&#xA;&lt;p&gt;Given $ s(t) = t^3 - 6t^2 + 9t + 4 $:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5.1 Pcractice</title>
+      <link>https://your-site.com/unit5/section5-1/practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://your-site.com/unit5/section5-1/practice/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;ex1&#34;&gt;Ex1.&lt;/h4&gt;&#xA;&lt;p&gt;A particle moves along a straight line with its position at time $ t $ given by the function:&lt;/p&gt;&#xA;\[&#xA; s(t) = t^3 - 6t^2 + 9t + 2&#xA;\]&lt;p&gt;Find:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The velocity function $ v(t) $.&lt;/li&gt;&#xA;&lt;li&gt;The acceleration function $ a(t) $.&lt;/li&gt;&#xA;&lt;li&gt;The time(s) when the particle is at rest.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;details&gt;&#xA;  &lt;summary&gt;&#xA;    &lt;strong id=&#34;solution-title&#34;&gt;Solution&lt;/strong&gt;&#xA;  &lt;/summary&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Compute the velocity function:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;\[&#xA;   v(t) = s&#39;(t) = 3t^2 - 12t + 9&#xA;\]&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Compute the acceleration function:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;\[&#xA;   a(t) = v&#39;(t) = 6t - 12&#xA;\]&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Find when the particle is at rest by solving $ v(t) = 0 $:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;\[&#xA;   3t^2 - 12t + 9 = 0&#xA;\]&lt;p&gt;Factor:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

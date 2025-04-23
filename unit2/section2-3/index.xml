@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2.3 Product Rule on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit2/section2-3/</link><description>Recent content in 2.3 Product Rule on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit2/section2-3/index.xml" rel="self" type="application/rss+xml"/><item><title>2.3 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit2/section2-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit2/section2-3/notes/</guid><description>&lt;h2 id="23-product-rule-examples">2.3 Product Rule: Examples&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2.3 Product Rule on Calculus Hub</title><link>https://mr.knapp.surge.sh/unit2/section2-3/</link><description>Recent content in 2.3 Product Rule on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://mr.knapp.surge.sh/unit2/section2-3/index.xml" rel="self" type="application/rss+xml"/><item><title>2.3 Examples</title><link>https://mr.knapp.surge.sh/unit2/section2-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit2/section2-3/notes/</guid><description>&lt;h2 id="23-product-rule-examples">2.3 Product Rule: Examples&lt;/h2>
 &lt;h4 id="ex1">Ex1.&lt;/h4>
 &lt;p>Differentiate \( f(x) = x^3 \cdot (4x - 2) \)&lt;/p>
 &lt;p>&lt;strong>Solution&lt;/strong>:&lt;/p>
@@ -18,7 +18,7 @@
 f'(x) = u'(x) \cdot v(x) + u(x) \cdot v'(x)
 \]\[
 f'(x) = (3x^2) \cdot (4x - 2) + (x^3) \cdot 4
-\]&lt;p>Simplifying:&lt;/p></description></item><item><title>2.3 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit2/section2-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit2/section2-3/practice/</guid><description>&lt;h2 id="23-product-rule-practice">2.3 Product Rule: Practice&lt;/h2>
+\]&lt;p>Simplifying:&lt;/p></description></item><item><title>2.3 Practice</title><link>https://mr.knapp.surge.sh/unit2/section2-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit2/section2-3/practice/</guid><description>&lt;h2 id="23-product-rule-practice">2.3 Product Rule: Practice&lt;/h2>
 &lt;h4 id="ex1">Ex1.&lt;/h4>
 &lt;p>Differentiate \( f(x) = (x^2 + 3x) \cdot (x^3 - 5) \)&lt;/p>
 &lt;details>

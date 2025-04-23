@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Section 6.1 on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-1/</link><description>Recent content in Section 6.1 on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit6/section6-1/index.xml" rel="self" type="application/rss+xml"/><item><title>6.1 Notes</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-1/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.1 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-1/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>6.1 Vectors on Calculus Hub</title><link>https://mr.knapp.surge.sh/unit6/section6-1/</link><description>Recent content in 6.1 Vectors on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://mr.knapp.surge.sh/unit6/section6-1/index.xml" rel="self" type="application/rss+xml"/><item><title>6.1 Examples</title><link>https://mr.knapp.surge.sh/unit6/section6-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit6/section6-1/notes/</guid><description>&lt;p>In this section, we’ll work through a series of example problems that reinforce the concepts introduced in Section 6.1. These examples will cover:&lt;/p>
+&lt;ul>
+&lt;li>Differentiating between scalars and vectors.&lt;/li>
+&lt;li>Drawing vectors based on given descriptions.&lt;/li>
+&lt;li>Determining directions using bearings.&lt;/li>
+&lt;li>Converting between quadrant and true bearings into calculator-friendly trigonometric bearings.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="example-1-differentiating-between-scalars-and-vectors">Example 1: Differentiating Between Scalars and Vectors&lt;/h2>
+&lt;p>&lt;strong>Question&lt;/strong>: Identify whether each of the following quantities is a scalar or a vector:&lt;/p>
+&lt;ol>
+&lt;li>Temperature&lt;/li>
+&lt;li>Velocity&lt;/li>
+&lt;li>Mass&lt;/li>
+&lt;li>Displacement&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Solution&lt;/strong>:
+To determine whether a quantity is a scalar or a vector, ask yourself: Does it have both magnitude and direction? If yes, it’s a vector; otherwise, it’s a scalar.&lt;/p></description></item><item><title>6.1 Practice</title><link>https://mr.knapp.surge.sh/unit6/section6-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit6/section6-1/practice/</guid><description>&lt;iframe src="https://script.google.com/macros/s/AKfycbxS8lq2rXu2F7y_m9dkyM_iPR1YTXyOCpt5o7LUST6it1e9OzQIcZ-SatiAlHgLziEB8A/exec" width="80%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading...&lt;/iframe></description></item></channel></rss>

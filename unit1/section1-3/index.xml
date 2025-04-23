@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1.3 Limits on Graphs on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-3/</link><description>Recent content in 1.3 Limits on Graphs on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit1/section1-3/index.xml" rel="self" type="application/rss+xml"/><item><title>1.3 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-3/notes/</guid><description>&lt;h2 id="limits-on-graphs">Limits on Graphs&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1.3 Limits on Graphs on Calculus Hub</title><link>https://mr.knapp.surge.sh/unit1/section1-3/</link><description>Recent content in 1.3 Limits on Graphs on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://mr.knapp.surge.sh/unit1/section1-3/index.xml" rel="self" type="application/rss+xml"/><item><title>1.3 Examples</title><link>https://mr.knapp.surge.sh/unit1/section1-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit1/section1-3/notes/</guid><description>&lt;h2 id="limits-on-graphs">Limits on Graphs&lt;/h2>
 &lt;h3 id="ex-1-limit-of-a-piecewise-function">Ex 1: Limit of a Piecewise Function&lt;/h3>
 &lt;p>a. Determine&lt;/p>
 \[
@@ -19,7 +19,7 @@
  \lim_{{x \to -1}} f(x) = -1 
 \]&lt;/li>
 &lt;/ol>
-&lt;p>&lt;strong>Solution b&lt;/strong>&lt;/p></description></item><item><title>1.3 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-3/practice/</guid><description>&lt;h3 id="13-limits-on-graphs">1.3 Limits on Graphs&lt;/h3>
+&lt;p>&lt;strong>Solution b&lt;/strong>&lt;/p></description></item><item><title>1.3 Practice</title><link>https://mr.knapp.surge.sh/unit1/section1-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit1/section1-3/practice/</guid><description>&lt;h3 id="13-limits-on-graphs">1.3 Limits on Graphs&lt;/h3>
 &lt;h4 id="ex1">Ex1.&lt;/h4>
 &lt;p>Determine the limit as x Apraoches -3.&lt;/p>
 &lt;div style="margin: 0 auto; width: fit-content;">
