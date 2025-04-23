@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>3.3 Exponential Derivatives on Calculus Hub</title><link>https://mr.knapp.surge.sh/unit3/section3-3/</link><description>Recent content in 3.3 Exponential Derivatives on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://mr.knapp.surge.sh/unit3/section3-3/index.xml" rel="self" type="application/rss+xml"/><item><title>3.3 Examples</title><link>https://mr.knapp.surge.sh/unit3/section3-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit3/section3-3/notes/</guid><description>&lt;h2 id="33-exponential-derivatives-examples">3.3 Exponential Derivatives: Examples&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>3.3 Exponential Derivatives on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-3/</link><description>Recent content in 3.3 Exponential Derivatives on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit3/section3-3/index.xml" rel="self" type="application/rss+xml"/><item><title>3.3 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-3/notes/</guid><description>&lt;h2 id="33-exponential-derivatives-examples">3.3 Exponential Derivatives: Examples&lt;/h2>
 &lt;h3 id="ex1">Ex1.&lt;/h3>
 &lt;p>Differentiate \( f(x) = e^{3x} \)&lt;/p>
 &lt;p>&lt;strong>Solution&lt;/strong>:
@@ -17,7 +17,7 @@ f'(x) = 3e^{3x}
 &lt;/ol>
 &lt;hr>
 &lt;h3 id="ex2">Ex2.&lt;/h3>
-&lt;p>Differentiate \( f(x) = x^2 \cdot e^{2x} \)&lt;/p></description></item><item><title>3.3 Practice:</title><link>https://mr.knapp.surge.sh/unit3/section3-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit3/section3-3/practice/</guid><description>&lt;h2 id="33-derivatives-of-exponential-functions">3.3 Derivatives of Exponential Functions&lt;/h2>
+&lt;p>Differentiate \( f(x) = x^2 \cdot e^{2x} \)&lt;/p></description></item><item><title>3.3 Practice:</title><link>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-3/practice/</guid><description>&lt;h2 id="33-derivatives-of-exponential-functions">3.3 Derivatives of Exponential Functions&lt;/h2>
 &lt;h3 id="ex1">Ex1.&lt;/h3>
 &lt;p>Differentiate the following function:&lt;/p>
 \[

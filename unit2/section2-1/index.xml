@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2.1 Power Rule on Calculus Hub</title><link>https://mr.knapp.surge.sh/unit2/section2-1/</link><description>Recent content in 2.1 Power Rule on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://mr.knapp.surge.sh/unit2/section2-1/index.xml" rel="self" type="application/rss+xml"/><item><title>2.1 Examples</title><link>https://mr.knapp.surge.sh/unit2/section2-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit2/section2-1/notes/</guid><description>&lt;h2 id="section-21-examples">Section 2.1: Examples&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2.1 Power Rule on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit2/section2-1/</link><description>Recent content in 2.1 Power Rule on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit2/section2-1/index.xml" rel="self" type="application/rss+xml"/><item><title>2.1 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit2/section2-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit2/section2-1/notes/</guid><description>&lt;h2 id="section-21-examples">Section 2.1: Examples&lt;/h2>
 \[
 \frac{d}{dx}[x^n] = n \cdot x^{n-1},
 \]&lt;p>
@@ -17,7 +17,7 @@ f'(x) = 3 \cdot x^{3-1} = 3x^2.
 g'(x) = \frac{1}{2} \cdot x^{\frac{1}{2} - 1} = \frac{1}{2} \cdot x^{-\frac{1}{2}} = \frac{1}{2\sqrt{x}}.
 \]&lt;hr>
 &lt;h3 id="example-3-negative-exponent">Example 3: Negative Exponent&lt;/h3>
-&lt;p>Differentiate \( h(x) = x^{-2} \).&lt;/p></description></item><item><title>2.1 Practice</title><link>https://mr.knapp.surge.sh/unit2/section2-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit2/section2-1/practice/</guid><description>&lt;h3 id="21-power-rule">2.1 Power Rule&lt;/h3>
+&lt;p>Differentiate \( h(x) = x^{-2} \).&lt;/p></description></item><item><title>2.1 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit2/section2-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit2/section2-1/practice/</guid><description>&lt;h3 id="21-power-rule">2.1 Power Rule&lt;/h3>
 &lt;h4 id="ex1">Ex1.&lt;/h4>
 &lt;p>Differentiate \( f(x) = x^5 \).&lt;/p>
 &lt;details>

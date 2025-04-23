@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>5.1: Position, Velocity, and Acceleration on Calculus Hub</title><link>https://mr.knapp.surge.sh/unit5/section5-1/</link><description>Recent content in 5.1: Position, Velocity, and Acceleration on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://mr.knapp.surge.sh/unit5/section5-1/index.xml" rel="self" type="application/rss+xml"/><item><title>5.1 Examples</title><link>https://mr.knapp.surge.sh/unit5/section5-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit5/section5-1/notes/</guid><description>&lt;h2 id="example-question-analyzing-motion-using-derivatives">Example Question: Analyzing Motion Using Derivatives&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>5.1: Position, Velocity, and Acceleration on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/</link><description>Recent content in 5.1: Position, Velocity, and Acceleration on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/index.xml" rel="self" type="application/rss+xml"/><item><title>5.1 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/notes/</guid><description>&lt;h2 id="example-question-analyzing-motion-using-derivatives">Example Question: Analyzing Motion Using Derivatives&lt;/h2>
 &lt;h4 id="problem-statement">Problem Statement:&lt;/h4>
 $$
 s(t) = t^3 - 6t^2 + 9t + 4 \quad \text{(in meters)},
@@ -24,7 +24,7 @@ $$
  $$&lt;/li>
 &lt;/ul>
 &lt;h5 id="step-2-compute-the-derivatives">Step 2: Compute the derivatives.&lt;/h5>
-&lt;p>Given $ s(t) = t^3 - 6t^2 + 9t + 4 $:&lt;/p></description></item><item><title>5.1 Pcractice</title><link>https://mr.knapp.surge.sh/unit5/section5-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mr.knapp.surge.sh/unit5/section5-1/practice/</guid><description>&lt;hr>
+&lt;p>Given $ s(t) = t^3 - 6t^2 + 9t + 4 $:&lt;/p></description></item><item><title>5.1 Pcractice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit5/section5-1/practice/</guid><description>&lt;hr>
 &lt;h4 id="ex1">Ex1.&lt;/h4>
 &lt;p>A particle moves along a straight line with its position at time $ t $ given by the function:&lt;/p>
 \[
