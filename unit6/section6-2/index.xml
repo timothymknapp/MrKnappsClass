@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Section 6.2 on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/</link><description>Recent content in Section 6.2 on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/index.xml" rel="self" type="application/rss+xml"/><item><title>6.2 Notes</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.2 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Section 6.2 on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/</link><description>Recent content in Section 6.2 on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/index.xml" rel="self" type="application/rss+xml"/><item><title>6.2 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/notes/</guid><description>&lt;p>In this section, we’ll work through example problems that reinforce the concepts of vector addition. These examples cover:&lt;/p>
+&lt;ul>
+&lt;li>Adding &lt;strong>parallel vectors&lt;/strong>.&lt;/li>
+&lt;li>Adding &lt;strong>perpendicular vectors&lt;/strong> using the Pythagorean theorem.&lt;/li>
+&lt;li>Adding &lt;strong>oblique vectors&lt;/strong> using the &lt;strong>component method&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="example-1-adding-parallel-vectors">Example 1: Adding Parallel Vectors&lt;/h2>
+&lt;p>&lt;strong>Question&lt;/strong>:&lt;br>
+A car moves 10 km [E] and then another 15 km [E]. Find the resultant displacement.&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Since the vectors are parallel and in the same direction, add their magnitudes:&lt;/p></description></item><item><title>6.2 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-2/practice/</guid><description>&lt;hr>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>A plane flies 200 km [E] and then another 300 km [E]. Find the resultant displacement.&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>Since the vectors are parallel and in the same direction, add their magnitudes:&lt;/p>
+$$
+ R = |\vec{A}| + |\vec{B}| = 200~\text{km} + 300~\text{km} = 500~\text{km}.
+ $$&lt;/li>
+&lt;li>
+&lt;p>The direction of the resultant is the same as the original vectors:&lt;/p>
+$$
+ \text{Direction: East}.
+ $$&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Answer&lt;/strong>:&lt;br>
+The resultant displacement is $ \boxed{500~\text{km [E]}} $.&lt;/p>
+&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+&lt;p>A drone moves 4 km [N] and then 3 km [W]. Find the magnitude and direction of the resultant displacement.&lt;/p></description></item></channel></rss>
