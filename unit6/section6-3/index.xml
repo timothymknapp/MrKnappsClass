@@ -1,12 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Section 6.3 on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/</link><description>Recent content in Section 6.3 on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/index.xml" rel="self" type="application/rss+xml"/><item><title>6.3 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/notes/</guid><description>$$
-\vec{a} \cdot \vec{b} = |\vec{a}| |\vec{b}| \cos\theta
-$$&lt;p>&lt;br>
-where $|\vec{a}|$ and $|\vec{b}|$ are the magnitudes of the vectors, and $\theta$ is the angle between them.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>6.3 Scalar Multiplication on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/</link><description>Recent content in 6.3 Scalar Multiplication on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/index.xml" rel="self" type="application/rss+xml"/><item><title>6.3 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/notes/</guid><description>&lt;p>In this section, we’ll work through additional example problems that reinforce the concepts of scalar multiplication. These examples use different numbers and contexts to help you practice scaling vectors geometrically.&lt;/p>
 &lt;hr>
-&lt;h2 id="example-1-conceptual-question-on-dot-product-and-vector-addition">Example 1: Conceptual Question on Dot Product and Vector Addition&lt;/h2>
-&lt;p>&lt;strong>Question&lt;/strong>:&lt;br>
-Explain how the dot product interacts with vector addition. Specifically, if $\vec{c} = \vec{a} + \vec{b}$, does $\vec{c} \cdot \vec{d}$ equal $(\vec{a} \cdot \vec{d}) + (\vec{b} \cdot \vec{d})$? Why or why not?&lt;/p>
+&lt;h2 id="example-1-scaling-a-vector-by-a-fraction">Example 1: Scaling a Vector by a Fraction&lt;/h2>
+&lt;p>A vector $\vec{v}$ has a magnitude of 12 units and points due north. Find the new vector if it is scaled by a factor of $ \frac{1}{3} $.&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:&lt;br>
+When a vector is multiplied by a positive scalar ($k > 0$), its magnitude is scaled by $|k|$, and its direction remains unchanged.&lt;/p></description></item><item><title>6.3 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/practice/</guid><description>&lt;hr>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>A vector $\vec{v}$ has a magnitude of 5 units and points due east. Find the new vector if it is scaled by a factor of $3$.&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>When a vector is multiplied by a positive scalar ($k > 0$), its magnitude is scaled by $|k|$, and its direction remains unchanged.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Magnitude of the new vector:&lt;/p>
 $$
-\vec{c} \cdot \vec{d} = (\vec{a} + \vec{b}) \cdot \vec{d} = (\vec{a} \cdot \vec{d}) + (\vec{b} \cdot \vec{d})
-$$&lt;p>
-This property arises because the dot product is a linear operation. Geometrically, it means you can calculate the projection of each component of $\vec{c}$ onto $\vec{d}$ separately and then sum the results.&lt;/p></description></item><item><title>6.3 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-3/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+ |\vec{v}_{\text{new}}| = |k| \cdot |\vec{v}| = 3 \cdot 5 = 15~\text{units}.
+ $$&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>The direction of the vector remains due east.&lt;/p></description></item></channel></rss>
