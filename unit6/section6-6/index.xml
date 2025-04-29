@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>6.6 Vector Applications on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/</link><description>Recent content in 6.6 Vector Applications on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/index.xml" rel="self" type="application/rss+xml"/><item><title>6.6 Notes</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>6.6 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>6.6 Vector Applications on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/</link><description>Recent content in 6.6 Vector Applications on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/index.xml" rel="self" type="application/rss+xml"/><item><title>6.6 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/notes/</guid><description>&lt;p>In this section, we’ll work through example problems that demonstrate the practical applications of geometric vectors. These examples cover:&lt;/p>
+&lt;ul>
+&lt;li>Vector addition.&lt;/li>
+&lt;li>Dot product applications (work and projections).&lt;/li>
+&lt;li>Cross product applications (torque and area).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="example-1-vector-addition">Example 1: Vector Addition&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>A plane is flying due east at $200~\text{km/h}$ relative to the air. A wind blows from the north at $50~\text{km/h}$. Find the resultant velocity of the plane relative to the ground.&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:&lt;/p></description></item><item><title>6.6 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/practice/</guid><description>&lt;hr>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>A boat is traveling due north at $15~\text{km/h}$ relative to the water. A current flows from the west at $5~\text{km/h}$. Find the resultant velocity of the boat relative to the ground.&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>Represent the velocities as vectors:&lt;/p>
+&lt;ul>
+&lt;li>Boat’s velocity: $\vec{v}_{\text{boat}} = 15~\text{km/h [N]}$.&lt;/li>
+&lt;li>Current’s velocity: $\vec{v}_{\text{current}} = 5~\text{km/h [E]}$.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use the Pythagorean theorem to find the magnitude of the resultant velocity:&lt;/p>
+$$
+ |\vec{v}_{\text{resultant}}| = \sqrt{|\vec{v}_{\text{boat}}|^2 + |\vec{v}_{\text{current}}|^2}
+ $$&lt;p>Substitute the values:&lt;/p></description></item></channel></rss>
