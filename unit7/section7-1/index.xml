@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Section 7.1 on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/</link><description>Recent content in Section 7.1 on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/index.xml" rel="self" type="application/rss+xml"/><item><title>7.1 Notes</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.1 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>7.1 Intro to Cartesian Vectors on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/</link><description>Recent content in 7.1 Intro to Cartesian Vectors on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/index.xml" rel="self" type="application/rss+xml"/><item><title>7.1 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/notes/</guid><description>&lt;p>In this section, we’ll work through example problems that reinforce the concepts of &lt;strong>Cartesian vectors&lt;/strong>. These examples cover:&lt;/p>
+&lt;ul>
+&lt;li>Writing vectors in component form.&lt;/li>
+&lt;li>Adding and subtracting vectors.&lt;/li>
+&lt;li>Scalar multiplication.&lt;/li>
+&lt;li>Calculating magnitude and direction.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="example-1-writing-a-vector-in-component-form">Example 1: Writing a Vector in Component Form&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>A vector $\vec{v}$ has an $x$-component of $4$ and a $y$-component of $-3$. Write the vector in component form and draw it on the $xy$-plane.&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:&lt;br>
+The vector in component form is:&lt;/p></description></item><item><title>7.1 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-1/practice/</guid><description>&lt;hr>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>A vector $\vec{v}$ has an $x$-component of $-2$ and a $y$-component of $5$. Write the vector in component form.&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>The vector in component form is:&lt;/p>
+$$
+\vec{v} = (-2, 5).
+$$&lt;p>&lt;strong>Answer&lt;/strong>:&lt;br>
+The vector in component form is $ \boxed{\vec{v} = (-2, 5)} $.&lt;/p>
+&lt;/details>
+&lt;hr>
+&lt;h4 id="ex2">Ex2.&lt;/h4>
+&lt;p>Two vectors are given:&lt;/p>
+&lt;ul>
+&lt;li>$\vec{u} = (4, -3)$,&lt;/li>
+&lt;li>$\vec{v} = (-1, 6)$.&lt;/li>
+&lt;/ul>
+&lt;p>Find the resultant vector $\vec{w} = \vec{u} + \vec{v}$.&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>To add two vectors, add their corresponding components:&lt;/p></description></item></channel></rss>

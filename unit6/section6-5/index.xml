@@ -11,18 +11,20 @@ $$&lt;p>and the &lt;strong>right-hand rule&lt;/strong> to determine the directio
 &lt;li>$|\vec{b}| = 6~\text{units}$,&lt;/li>
 &lt;li>The angle between them is $\theta = 30^\circ$.&lt;/li>
 &lt;/ul>
-&lt;p>Find the magnitude of the cross product $|\vec{a} \times \vec{b}|$.&lt;/p></description></item><item><title>6.5 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-5/practice/</guid><description>&lt;h1 id="65-practice-cross-product">6.5 Practice: Cross Product&lt;/h1>
-&lt;p>In this section, you’ll find practice problems to reinforce your understanding of the &lt;strong>cross product&lt;/strong>. Each question uses the geometric definition of the cross product:&lt;/p>
+&lt;p>Find the magnitude of the cross product $|\vec{a} \times \vec{b}|$.&lt;/p></description></item><item><title>6.5 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-5/practice/</guid><description>&lt;p>In this section, you’ll find practice problems to reinforce your understanding of the &lt;strong>cross product&lt;/strong>. Each question uses the geometric definition of the cross product:&lt;/p>
 $$
 |\vec{a} \times \vec{b}| = |\vec{a}| |\vec{b}| \sin\theta
-$$&lt;p>and the &lt;strong>right-hand rule&lt;/strong> to determine direction. Solutions are hidden under &lt;code>&amp;lt;details&amp;gt;&lt;/code> tags—expand them only after attempting the problem!&lt;/p>
-&lt;hr>
-&lt;h2 id="problem-1-magnitude-of-the-cross-product">Problem 1: Magnitude of the Cross Product&lt;/h2>
-&lt;h4 id="p1">P1.&lt;/h4>
+$$&lt;h2 id="and-the-right-hand-rule-to-determine-direction">and the &lt;strong>right-hand rule&lt;/strong> to determine direction.&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
 &lt;p>Two vectors are given:&lt;/p>
 &lt;ul>
 &lt;li>$|\vec{u}| = 3~\text{units}$,&lt;/li>
 &lt;li>$|\vec{v}| = 7~\text{units}$,&lt;/li>
 &lt;li>The angle between them is $\theta = 45^\circ$.&lt;/li>
 &lt;/ul>
-&lt;p>Find the magnitude of the cross product $|\vec{u} \times \vec{v}|$.&lt;/p></description></item></channel></rss>
+&lt;p>Find the magnitude of the cross product $|\vec{u} \times \vec{v}|$.&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>Using the formula for the magnitude of the cross product:&lt;/p></description></item></channel></rss>
