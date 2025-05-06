@@ -1548,10 +1548,10 @@ $$&lt;p>From trigonometry, $\cos(60^\circ) = 0.5$. Therefore:&lt;/p>
 $$
 \vec{a} \cdot \vec{b} = (5)(8)(0.5) = 20
 $$&lt;p>&lt;strong>Answer&lt;/strong>:&lt;br>
-The dot product is $ \boxed{20} $.&lt;/p></description></item><item><title>6.5 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-5/practice/</guid><description>&lt;p>In this section, you’ll find practice problems to reinforce your understanding of the &lt;strong>cross product&lt;/strong>. Each question uses the geometric definition of the cross product:&lt;/p>
+The dot product is $ \boxed{20} $.&lt;/p></description></item><item><title>6.5 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-5/practice/</guid><description>&lt;p>In this section, you’ll find practice problems to reinforce your understanding of the &lt;strong>cross product&lt;/strong>. Each question uses the geometric definition of the cross product: and the &lt;strong>right-hand rule&lt;/strong> to determine direction.&lt;/p>
 $$
 |\vec{a} \times \vec{b}| = |\vec{a}| |\vec{b}| \sin\theta
-$$&lt;h2 id="and-the-right-hand-rule-to-determine-direction">and the &lt;strong>right-hand rule&lt;/strong> to determine direction.&lt;/h2>
+$$&lt;hr>
 &lt;h4 id="ex1">Ex1.&lt;/h4>
 &lt;p>Two vectors are given:&lt;/p>
 &lt;ul>
@@ -1559,12 +1559,7 @@ $$&lt;h2 id="and-the-right-hand-rule-to-determine-direction">and the &lt;strong>
 &lt;li>$|\vec{v}| = 7~\text{units}$,&lt;/li>
 &lt;li>The angle between them is $\theta = 45^\circ$.&lt;/li>
 &lt;/ul>
-&lt;p>Find the magnitude of the cross product $|\vec{u} \times \vec{v}|$.&lt;/p>
-&lt;details>
- &lt;summary>
- &lt;strong id="solution-title">Solution&lt;/strong>
- &lt;/summary>
-&lt;p>Using the formula for the magnitude of the cross product:&lt;/p></description></item><item><title>6.6 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/practice/</guid><description>&lt;hr>
+&lt;p>Find the magnitude of the cross product $|\vec{u} \times \vec{v}|$.&lt;/p></description></item><item><title>6.6 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit6/section6-6/practice/</guid><description>&lt;hr>
 &lt;h4 id="ex1">Ex1.&lt;/h4>
 &lt;p>A boat is traveling due north at $15~\text{km/h}$ relative to the water. A current flows from the west at $5~\text{km/h}$. Find the resultant velocity of the boat relative to the ground.&lt;/p>
 &lt;details>
