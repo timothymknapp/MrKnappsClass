@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Section 7.5 on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/</link><description>Recent content in Section 7.5 on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/index.xml" rel="self" type="application/rss+xml"/><item><title>7.5 Notes</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.5 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>7.5 Dot and Cross Applications on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/</link><description>Recent content in 7.5 Dot and Cross Applications on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/index.xml" rel="self" type="application/rss+xml"/><item><title>7.5 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/notes/</guid><description>&lt;p>In this section, we’ll work through examples that demonstrate how the dot product and cross product are applied in real-world scenarios. Each example focuses on a specific application, such as work, torque, lighting, and more.&lt;/p>
+&lt;hr>
+&lt;h2 id="example-1-computing-work-dot-product">Example 1: Computing Work (Dot Product)&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>A force $\vec{F} = \langle 10, 5, 0 \rangle$ moves an object along a displacement $\vec{d} = \langle 4, 3, 0 \rangle$. Find the work done.&lt;/p>
+&lt;p>&lt;strong>Solution&lt;/strong>:&lt;br>
+The formula for work is:&lt;/p></description></item><item><title>7.5 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-5/practice/</guid><description>&lt;p>In this section, you’ll find practice problems to reinforce your understanding of how the dot product and cross product are applied in real-world scenarios. Solutions are hidden &amp;ndash; expand them only after attempting the problem!&lt;/p>
+&lt;hr>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>A force $\vec{F} = \langle 6, -2 \rangle$ moves an object along a displacement $\vec{d} = \langle 3, 4 \rangle$. Find the work done.&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;p>The formula for work is:&lt;/p>
+$$
+W = \vec{F} \cdot \vec{d}.
+$$&lt;p>Substitute the components of $\vec{F} = \langle 6, -2 \rangle$ and $\vec{d} = \langle 3, 4 \rangle$:&lt;/p></description></item></channel></rss>
