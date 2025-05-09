@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Section 7.6 on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/</link><description>Recent content in Section 7.6 on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/index.xml" rel="self" type="application/rss+xml"/><item><title>7.6 Notes</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>7.6 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>7.6 Projections, Decomositions on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/</link><description>Recent content in 7.6 Projections, Decomositions on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/index.xml" rel="self" type="application/rss+xml"/><item><title>7.6 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/notes/</guid><description>&lt;p>In this section, we’ll work through examples that demonstrate how to compute scalar and vector projections, decompose vectors into components, and apply these concepts to real-world scenarios. Both 2D and 3D examples are included.&lt;/p>
+&lt;hr>
+&lt;h2 id="example-1-scalar-and-vector-projection-2d">Example 1: Scalar and Vector Projection (2D)&lt;/h2>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Let $\vec{a} = \langle 4, 3 \rangle$ and $\vec{b} = \langle 1, 0 \rangle$.&lt;/p>
+&lt;ol>
+&lt;li>Find the scalar projection of $\vec{a}$ onto $\vec{b}$.&lt;/li>
+&lt;li>Find the vector projection of $\vec{a}$ onto $\vec{b}$.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Solution&lt;/strong>:&lt;/p></description></item><item><title>7.6 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit7/section7-6/practice/</guid><description>&lt;p>In this section, you’ll find practice problems to reinforce your understanding of scalar and vector projections, decomposing vectors, and their applications. Solutions are hidden expand them only after attempting the problem!&lt;/p>
+&lt;hr>
+&lt;h4 id="ex1">Ex1.&lt;/h4>
+&lt;p>Compute the scalar and vector projections of $\vec{a} = \langle 2, 5 \rangle$ onto $\vec{b} = \langle 4, 1 \rangle$.&lt;/p>
+&lt;details>
+ &lt;summary>
+ &lt;strong id="solution-title">Solution&lt;/strong>
+ &lt;/summary>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Scalar Projection&lt;/strong>:&lt;/p>
+\[
+ \text{comp}_{\vec{b}} \vec{a} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}.
+ \]&lt;p>Compute the dot product:&lt;/p>
+\[
+ \vec{a} \cdot \vec{b} = (2)(4) + (5)(1) = 8 + 5 = 13.
+ \]&lt;p>Compute $|\vec{b}|$:&lt;/p></description></item></channel></rss>
