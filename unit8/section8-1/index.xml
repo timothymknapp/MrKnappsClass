@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Section 8.1 on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/</link><description>Recent content in Section 8.1 on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/index.xml" rel="self" type="application/rss+xml"/><item><title>8.1 Notes</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.1 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>8.1: Lines in 2D and 3D on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/</link><description>Recent content in 8.1: Lines in 2D and 3D on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/index.xml" rel="self" type="application/rss+xml"/><item><title>8.1: Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/notes/</guid><description>&lt;p>This page provides detailed worked-out examples to help you understand how to apply the concepts of lines in 2D and 3D.&lt;/p>
+&lt;hr>
+&lt;h2 id="example-1-vector-and-parametric-equations-of-a-line-2d">Example 1: Vector and Parametric Equations of a Line (2D)&lt;/h2>
+&lt;p>Find the vector and parametric equations of the line passing through the point $(-3, 4)$ with direction vector $\vec{m} = \langle 2, -1 \rangle$.&lt;/p>
+&lt;h3 id="solution">Solution:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Vector Equation&lt;/strong>:
+The general form of the vector equation of a line is:&lt;/p>
+$$
+ \vec{r}(t) = \vec{r}_0 + t\vec{m}
+ $$&lt;p>Substituting $\vec{r}_0 = \langle -3, 4 \rangle$ and $\vec{m} = \langle 2, -1 \rangle$, we get:&lt;/p></description></item><item><title>8.1 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-1/practice/</guid><description>&lt;p>Solve the following problems to reinforce your understanding of lines in 2D and 3D. Click on the &lt;strong>&amp;ldquo;Solution&amp;rdquo;&lt;/strong> dropdown to reveal the hidden solution.&lt;/p>
+&lt;hr>
+&lt;h2 id="problem-1-vector-and-parametric-equations-of-a-line-2d">Problem 1: Vector and Parametric Equations of a Line (2D)&lt;/h2>
+&lt;p>Find the vector and parametric equations of the line passing through the point $(-2, 5)$ with direction vector $\vec{m} = \langle 4, -3 \rangle$.&lt;/p>
+&lt;details>
+&lt;summary>&lt;strong id="solution-title">Solution&lt;/strong>&lt;/summary>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Vector Equation&lt;/strong>:
+The general form of the vector equation is:&lt;/p>
+$$
+ \vec{r}(t) = \vec{r}_0 + t\vec{m}
+ $$&lt;p>Substituting $\vec{r}_0 = \langle -2, 5 \rangle$ and $\vec{m} = \langle 4, -3 \rangle$, we get:&lt;/p></description></item></channel></rss>
