@@ -1790,8 +1790,7 @@ $$&lt;p>Substitute the components of $\vec{F} = \langle 6, -2 \rangle$ and $\vec
 The general form of the vector equation is:&lt;/p>
 $$
  \vec{r}(t) = \vec{r}_0 + t\vec{m}
- $$&lt;p>Substituting $\vec{r}_0 = \langle -2, 5 \rangle$ and $\vec{m} = \langle 4, -3 \rangle$, we get:&lt;/p></description></item><item><title>8.2 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-2/practice/</guid><description>&lt;h1 id="section-82-practice-problems">Section 8.2: Practice Problems&lt;/h1>
-&lt;p>Solve the following problems to reinforce your understanding of intersections of lines in 2D and 3D. Click on the &lt;strong>&amp;ldquo;Solution&amp;rdquo;&lt;/strong> dropdown to reveal the hidden solution.&lt;/p>
+ $$&lt;p>Substituting $\vec{r}_0 = \langle -2, 5 \rangle$ and $\vec{m} = \langle 4, -3 \rangle$, we get:&lt;/p></description></item><item><title>8.2 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-2/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-2/practice/</guid><description>&lt;p>Solve the following problems to reinforce your understanding of intersections of lines in 2D and 3D. Click on the &lt;strong>&amp;ldquo;Solution&amp;rdquo;&lt;/strong> dropdown to reveal the hidden solution.&lt;/p>
 &lt;hr>
 &lt;h2 id="ex1">EX1&lt;/h2>
 &lt;p>Find the point of intersection of the lines given by:&lt;/p>
