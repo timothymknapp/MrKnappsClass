@@ -1,2 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Section 8.4 on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/</link><description>Recent content in Section 8.4 on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/index.xml" rel="self" type="application/rss+xml"/><item><title>8.4 Notes</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/notes/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p></description></item><item><title>8.4 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/practice/</guid><description>&lt;p>Welcome to &lt;strong>Calculus Hub&lt;/strong>, your one-stop resource for mastering Calculus!&lt;/p>
-&lt;iframe src="https://script.google.com/macros/s/AKfycbxm4gzccLCeA8yb8OwRwZPCO2WI77TDB9Wf9JZhBC4IzyxynZA5PoRi2Lv6EkXcV8Bq2Q/exec" width="80%" height="1200px" frameborder="0" marginheight="0" marginwidth="0">Loading...&lt;/iframe></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>8.4 Equations of Lines and Planes on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/</link><description>Recent content in 8.4 Equations of Lines and Planes on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/index.xml" rel="self" type="application/rss+xml"/><item><title>8.4 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/notes/</guid><description>&lt;p>This page provides detailed worked-out examples to help you understand how to create equations of lines and planes in 3D.&lt;/p>
+&lt;hr>
+&lt;h2 id="example-1-creating-a-line-equation">Example 1: Creating a Line Equation&lt;/h2>
+&lt;p>Find the vector and parametric equations of the line passing through the points $A(2, -3, 1)$ and $B(-1, 0, 4)$.&lt;/p>
+&lt;h3 id="solution">Solution:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Find the direction vector $\vec{m}$:&lt;/p>
+$$
+ \vec{m} = \langle -1 - 2, 0 - (-3), 4 - 1 \rangle = \langle -3, 3, 3 \rangle.
+ $$&lt;/li>
+&lt;li>
+&lt;p>Use point $A(2, -3, 1)$ and $\vec{m} = \langle -3, 3, 3 \rangle$ to write the vector equation:&lt;/p></description></item><item><title>8.4 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-4/practice/</guid><description>&lt;p>Solve the following problems to reinforce your understanding of creating equations of lines and planes in 3D. Click on the &lt;strong>&amp;ldquo;Solution&amp;rdquo;&lt;/strong> dropdown to reveal the hidden solution.&lt;/p>
+&lt;hr>
+&lt;h2 id="ex1">Ex1&lt;/h2>
+&lt;p>Find the vector and parametric equations of the line passing through the points $P(3, -1, 2)$ and $Q(5, 2, -4)$.&lt;/p>
+&lt;details>
+&lt;summary>&lt;strong>Solution&lt;/strong>&lt;/summary>
+&lt;ul>
+&lt;li>
+&lt;p>Find the direction vector $\vec{m}$:&lt;/p>
+$$
+ \vec{m} = \langle 5 - 3, 2 - (-1), -4 - 2 \rangle = \langle 2, 3, -6 \rangle.
+ $$&lt;/li>
+&lt;li>
+&lt;p>Use point $P(3, -1, 2)$ and $\vec{m} = \langle 2, 3, -6 \rangle$ to write the vector equation:&lt;/p></description></item></channel></rss>
