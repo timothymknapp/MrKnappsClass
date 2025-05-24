@@ -15,7 +15,7 @@ $$
 &lt;h2 id="ex1">Ex1&lt;/h2>
 &lt;p>Find the vector and parametric equations of the line passing through the points $P(3, -1, 2)$ and $Q(5, 2, -4)$.&lt;/p>
 &lt;details>
-&lt;summary>&lt;strong>Solution&lt;/strong>&lt;/summary>
+&lt;summary>&lt;strong id="solution-title">Solution&lt;/strong>&lt;/summary>
 &lt;ul>
 &lt;li>
 &lt;p>Find the direction vector $\vec{m}$:&lt;/p>
