@@ -12,5 +12,5 @@ $$&lt;h3 id="solution">Solution:&lt;/h3>
 $$
 \vec{r}_1(t) = \langle -1, 3 \rangle + t\langle 2, -1 \rangle, \quad \vec{r}_2(s) = \langle 4, 0 \rangle + s\langle -1, 2 \rangle.
 $$&lt;details>
-&lt;summary>&lt;strong>Solution&lt;/strong>&lt;/summary>
+&lt;summary>&lt;strong id="solution-title">Solution&lt;/strong>&lt;/summary>
 &lt;p>Because the lines are not parallel; Set the parametric equations equal:&lt;/p></description></item></channel></rss>
