@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>8.6: Intersections: 2 Planes on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/</link><description>Recent content in 8.6: Intersections: 2 Planes on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/index.xml" rel="self" type="application/rss+xml"/><item><title>8.6 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/notes/</guid><description>&lt;p>This page provides detailed worked-out examples to help you understand how to determine the intersection of two planes in 3D space.&lt;/p>
 &lt;hr>
-&lt;h2 id="example-1-intersection-of-two-planes-line-of-intersection">Example 1: Intersection of Two Planes (Line of Intersection)&lt;/h2>
+&lt;h2 id="example-1-intersection-of-two-planes-line-of-intersection-special-case-multiple-variables-eliminate">Example 1: Intersection of Two Planes (Line of Intersection) Special Case: multiple variables eliminate&lt;/h2>
 &lt;p>Find the line of intersection between the planes:&lt;/p>
 $$
 2x - y + z - 4 = 0 \quad \text{and} \quad x + y - z - 2 = 0.
-$$&lt;h3 id="solution">Solution:&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>The direction vector of the line of intersection is given by the cross product of the normal vectors of the planes:&lt;/p></description></item><item><title>8.6 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/practice/</guid><description>&lt;p>Solve the following problems to reinforce your understanding of intersections of two planes in 3D space. Click on the &lt;strong>&amp;ldquo;Solution&amp;rdquo;&lt;/strong> dropdown to reveal the hidden solution.&lt;/p>
+$$&lt;h3 id="step-1-check-if-the-planes-are-parallel">Step 1: Check if the planes are parallel&lt;/h3>
+&lt;p>The normal vectors of the planes are:&lt;/p></description></item><item><title>8.6 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/practice/</guid><description>&lt;p>Solve the following problems to reinforce your understanding of intersections of two planes in 3D space. Click on the &lt;strong>&amp;ldquo;Solution&amp;rdquo;&lt;/strong> dropdown to reveal the hidden solution.&lt;/p>
 &lt;hr>
-&lt;h2 id="ex1">Ex1&lt;/h2>
+&lt;h2 id="ex1-intersection-of-two-planes">Ex1: Intersection of Two Planes&lt;/h2>
 &lt;p>Find the line of intersection between the planes:&lt;/p>
 $$
-x + y + z = 6 \quad \text{and} \quad 2x - y + z = 4.
+x + y + z = 6 \quad \text{and} \quad 2x - y + z = 4
 $$&lt;details>
 &lt;summary>&lt;strong id="solution-title">Solution&lt;/strong>&lt;/summary>
-&lt;ul>
-&lt;li>
-&lt;p>The direction vector of the line of intersection is given by the cross product of the normal vectors of the planes:&lt;/p></description></item></channel></rss>
+&lt;h3 id="step-1-check-if-planes-are-parallel">Step 1: Check if planes are parallel&lt;/h3>
+&lt;p>Normal vectors:&lt;/p>
+$$
+\vec{n}_1 = \langle 1, 1, 1 \rangle, \quad \vec{n}_2 = \langle 2, -1, 1 \rangle
+$$&lt;p>Check ratios of components:&lt;/p></description></item></channel></rss>

@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>8.7: Intersections: 3 Planes on Calculus Hub</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/</link><description>Recent content in 8.7: Intersections: 3 Planes on Calculus Hub</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/index.xml" rel="self" type="application/rss+xml"/><item><title>8.7 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/notes/</guid><description>&lt;p>This page provides detailed worked-out examples to help you understand how to determine the intersection of three planes in 3D space.&lt;/p>
-&lt;hr>
-&lt;h2 id="example-1-intersection-at-a-single-point">Example 1: Intersection at a Single Point&lt;/h2>
-&lt;p>Find the point of intersection of the three planes:&lt;/p>
-$$
-x + y + z = 6, \quad 2x - y + z = 4, \quad x + 3y - 2z = 2.
-$$&lt;h3 id="solution">Solution:&lt;/h3>
+&lt;p>The &lt;strong>first four&lt;/strong> examples use the Crazy Line Finding Technique (CLFT) Each demonstrates a different type of solution:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Point Solution&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Line Solution (distinct planes)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>No Solution&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Each example follows the same strategy:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;p>Write the system of equations:&lt;/p>
-$$
- \begin{aligned}
- x + y + z &amp;= 6, \\
- 2x - y + z &amp;= 4, \\
- x + 3y - 2z &amp;= 2.
- \end{aligned}
- $$&lt;/li>
-&lt;li>
-&lt;p>Solve using substitution or elimination:&lt;/p></description></item><item><title>8.7 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/practice/</guid><description>&lt;p>Solve the following problems to reinforce your understanding of intersections of three planes in 3D space. Click on the &lt;strong>&amp;ldquo;Solution&amp;rdquo;&lt;/strong> dropdown to reveal the hidden solution.&lt;/p>
+&lt;li>Use CLFT with tow of the equations
+&lt;ul>
+&lt;li>Eliminate one variable from two equations.&lt;/li>
+&lt;li>Express the remaining variables parametrically as a line.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Substitute the found line into the third equation to determine the nature of the solution.&lt;/li>
+&lt;li>This technique does not require that you check the cross and dot product of the normals.&lt;/li>
+&lt;/ul>
 &lt;hr>
-&lt;h2 id="ex1">Ex1&lt;/h2>
-&lt;p>Find the point of intersection of the three planes:&lt;/p>
+&lt;h2 id="example-1-point-solution">Example 1: Point Solution&lt;/h2>
+&lt;h3 id="system">System:&lt;/h3>
 $$
-x + y + z = 6, \quad x - y + z = 2, \quad x + y - z = 4.
+\begin{aligned}
+(\pi_1)\quad &amp; x + y + z = 6 \\
+(\pi_2)\quad &amp; 2x - y + z = 3 \\
+(\pi_3)\quad &amp; x + 2y - z = 1
+\end{aligned}
+$$&lt;h3 id="step-by-step">Step-by-step:&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Eliminate $z$ from by subtracting $\pi_1$ from $\pi_2$:&lt;/p></description></item><item><title>8.7 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/practice/</guid><description>&lt;p>Solve the following problems to reinforce your understanding of intersections of three planes in 3D space. Click on the &lt;strong>&amp;ldquo;Solution&amp;rdquo;&lt;/strong> dropdown to reveal the hidden solution.&lt;/p>
+&lt;hr>
+&lt;h2 id="ex1-determine-the-intersection">Ex1: Determine the Intersection&lt;/h2>
+$$
+\begin{aligned}
+(\pi_1)\quad &amp; x + y + z = 6 \\
+(\pi_2)\quad &amp; x - y + z = 2 \\
+(\pi_3)\quad &amp; x + y - z = 4
+\end{aligned}
 $$&lt;details>
 &lt;summary>&lt;strong id="solution-title">Solution&lt;/strong>&lt;/summary>
-&lt;ul>
-&lt;li>
-&lt;p>Write the system of equations:&lt;/p>
-$$
- \begin{aligned}
- x + y + z &amp;= 6, \\
- x - y + z &amp;= 2, \\
- x + y - z &amp;= 4.
- \end{aligned}
- $$&lt;/li>
-&lt;li>
-&lt;p>Solve using elimination:&lt;/p></description></item></channel></rss>
+&lt;p>The following technique should only be used if you have checked and discovered that the following three are true:&lt;/p></description></item></channel></rss>

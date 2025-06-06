@@ -657,32 +657,42 @@ $$&lt;h3 id="solution">Solution:&lt;/h3>
 &lt;li>
 &lt;p>Write the parametric equations of the line:&lt;/p></description></item><item><title>8.6 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/notes/</guid><description>&lt;p>This page provides detailed worked-out examples to help you understand how to determine the intersection of two planes in 3D space.&lt;/p>
 &lt;hr>
-&lt;h2 id="example-1-intersection-of-two-planes-line-of-intersection">Example 1: Intersection of Two Planes (Line of Intersection)&lt;/h2>
+&lt;h2 id="example-1-intersection-of-two-planes-line-of-intersection-special-case-multiple-variables-eliminate">Example 1: Intersection of Two Planes (Line of Intersection) Special Case: multiple variables eliminate&lt;/h2>
 &lt;p>Find the line of intersection between the planes:&lt;/p>
 $$
 2x - y + z - 4 = 0 \quad \text{and} \quad x + y - z - 2 = 0.
-$$&lt;h3 id="solution">Solution:&lt;/h3>
+$$&lt;h3 id="step-1-check-if-the-planes-are-parallel">Step 1: Check if the planes are parallel&lt;/h3>
+&lt;p>The normal vectors of the planes are:&lt;/p></description></item><item><title>8.7 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/notes/</guid><description>&lt;p>This page provides detailed worked-out examples to help you understand how to determine the intersection of three planes in 3D space.&lt;/p>
+&lt;p>The &lt;strong>first four&lt;/strong> examples use the Crazy Line Finding Technique (CLFT) Each demonstrates a different type of solution:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Point Solution&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Line Solution (distinct planes)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>No Solution&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Each example follows the same strategy:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;p>The direction vector of the line of intersection is given by the cross product of the normal vectors of the planes:&lt;/p></description></item><item><title>8.7 Examples</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/notes/</guid><description>&lt;p>This page provides detailed worked-out examples to help you understand how to determine the intersection of three planes in 3D space.&lt;/p>
+&lt;li>Use CLFT with tow of the equations
+&lt;ul>
+&lt;li>Eliminate one variable from two equations.&lt;/li>
+&lt;li>Express the remaining variables parametrically as a line.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Substitute the found line into the third equation to determine the nature of the solution.&lt;/li>
+&lt;li>This technique does not require that you check the cross and dot product of the normals.&lt;/li>
+&lt;/ul>
 &lt;hr>
-&lt;h2 id="example-1-intersection-at-a-single-point">Example 1: Intersection at a Single Point&lt;/h2>
-&lt;p>Find the point of intersection of the three planes:&lt;/p>
+&lt;h2 id="example-1-point-solution">Example 1: Point Solution&lt;/h2>
+&lt;h3 id="system">System:&lt;/h3>
 $$
-x + y + z = 6, \quad 2x - y + z = 4, \quad x + 3y - 2z = 2.
-$$&lt;h3 id="solution">Solution:&lt;/h3>
-&lt;ul>
+\begin{aligned}
+(\pi_1)\quad &amp; x + y + z = 6 \\
+(\pi_2)\quad &amp; 2x - y + z = 3 \\
+(\pi_3)\quad &amp; x + 2y - z = 1
+\end{aligned}
+$$&lt;h3 id="step-by-step">Step-by-step:&lt;/h3>
+&lt;ol>
 &lt;li>
-&lt;p>Write the system of equations:&lt;/p>
-$$
- \begin{aligned}
- x + y + z &amp;= 6, \\
- 2x - y + z &amp;= 4, \\
- x + 3y - 2z &amp;= 2.
- \end{aligned}
- $$&lt;/li>
-&lt;li>
-&lt;p>Solve using substitution or elimination:&lt;/p></description></item><item><title>1.1 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-1/practice/</guid><description>&lt;h3 id="mcv4u-11-average-rates-of-change">MCV4U 1.1 Average Rates of Change&lt;/h3>
+&lt;p>Eliminate $z$ from by subtracting $\pi_1$ from $\pi_2$:&lt;/p></description></item><item><title>1.1 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit1/section1-1/practice/</guid><description>&lt;h3 id="mcv4u-11-average-rates-of-change">MCV4U 1.1 Average Rates of Change&lt;/h3>
 &lt;h4 id="ex-1">Ex 1&lt;/h4>
 &lt;p>Consider the quadratic function \( f(x) = x^2 + 2x + 1 \).&lt;/p>
 &lt;p>&lt;strong>Question:&lt;/strong>
@@ -1894,34 +1904,28 @@ $$&lt;details>
 &lt;li>
 &lt;p>Write the parametric equations of the line:&lt;/p></description></item><item><title>8.6 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-6/practice/</guid><description>&lt;p>Solve the following problems to reinforce your understanding of intersections of two planes in 3D space. Click on the &lt;strong>&amp;ldquo;Solution&amp;rdquo;&lt;/strong> dropdown to reveal the hidden solution.&lt;/p>
 &lt;hr>
-&lt;h2 id="ex1">Ex1&lt;/h2>
+&lt;h2 id="ex1-intersection-of-two-planes">Ex1: Intersection of Two Planes&lt;/h2>
 &lt;p>Find the line of intersection between the planes:&lt;/p>
 $$
-x + y + z = 6 \quad \text{and} \quad 2x - y + z = 4.
+x + y + z = 6 \quad \text{and} \quad 2x - y + z = 4
 $$&lt;details>
 &lt;summary>&lt;strong id="solution-title">Solution&lt;/strong>&lt;/summary>
-&lt;ul>
-&lt;li>
-&lt;p>The direction vector of the line of intersection is given by the cross product of the normal vectors of the planes:&lt;/p></description></item><item><title>8.7 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/practice/</guid><description>&lt;p>Solve the following problems to reinforce your understanding of intersections of three planes in 3D space. Click on the &lt;strong>&amp;ldquo;Solution&amp;rdquo;&lt;/strong> dropdown to reveal the hidden solution.&lt;/p>
+&lt;h3 id="step-1-check-if-planes-are-parallel">Step 1: Check if planes are parallel&lt;/h3>
+&lt;p>Normal vectors:&lt;/p>
+$$
+\vec{n}_1 = \langle 1, 1, 1 \rangle, \quad \vec{n}_2 = \langle 2, -1, 1 \rangle
+$$&lt;p>Check ratios of components:&lt;/p></description></item><item><title>8.7 Practice</title><link>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit8/section8-7/practice/</guid><description>&lt;p>Solve the following problems to reinforce your understanding of intersections of three planes in 3D space. Click on the &lt;strong>&amp;ldquo;Solution&amp;rdquo;&lt;/strong> dropdown to reveal the hidden solution.&lt;/p>
 &lt;hr>
-&lt;h2 id="ex1">Ex1&lt;/h2>
-&lt;p>Find the point of intersection of the three planes:&lt;/p>
+&lt;h2 id="ex1-determine-the-intersection">Ex1: Determine the Intersection&lt;/h2>
 $$
-x + y + z = 6, \quad x - y + z = 2, \quad x + y - z = 4.
+\begin{aligned}
+(\pi_1)\quad &amp; x + y + z = 6 \\
+(\pi_2)\quad &amp; x - y + z = 2 \\
+(\pi_3)\quad &amp; x + y - z = 4
+\end{aligned}
 $$&lt;details>
 &lt;summary>&lt;strong id="solution-title">Solution&lt;/strong>&lt;/summary>
-&lt;ul>
-&lt;li>
-&lt;p>Write the system of equations:&lt;/p>
-$$
- \begin{aligned}
- x + y + z &amp;= 6, \\
- x - y + z &amp;= 2, \\
- x + y - z &amp;= 4.
- \end{aligned}
- $$&lt;/li>
-&lt;li>
-&lt;p>Solve using elimination:&lt;/p></description></item><item><title>3.1 Practice:</title><link>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-1/practice/</guid><description>&lt;h2 id="31-derivatives-of-trigonometric-functions">3.1 Derivatives of Trigonometric Functions&lt;/h2>
+&lt;p>The following technique should only be used if you have checked and discovered that the following three are true:&lt;/p></description></item><item><title>3.1 Practice:</title><link>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-1/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://timothymknapp.github.io/MrKnappsClass/unit3/section3-1/practice/</guid><description>&lt;h2 id="31-derivatives-of-trigonometric-functions">3.1 Derivatives of Trigonometric Functions&lt;/h2>
 &lt;h3 id="ex1">Ex1.&lt;/h3>
 &lt;p>Differentiate the following function:&lt;/p>
 \[
